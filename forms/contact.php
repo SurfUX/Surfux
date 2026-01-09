@@ -1,35 +1,44 @@
 <?php
+// Allow only POST requests
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    http_response_code(403);
+    exit('Forbidden');
+}
 
-  $receiving_email_address = 'contact@surfux.com';
+$receiving_email_address = 'contact@surfux.com';
 
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
-  }
+$php_email_form = __DIR__ . '/../assets/vendor/php-email-form/php-email-form.php';
 
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
-  
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
+if (!file_exists($php_email_form)) {
+    http_response_code(500);
+    exit('PHP Email Form library not found.');
+}
 
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
+require_once $php_email_form;
 
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  isset($_POST['phone']) && $contact->add_message($_POST['phone'], 'Phone');
-  $contact->add_message( $_POST['message'], 'Message', 10);
+$contact = new PHP_Email_Form;
+$contact->ajax = true;
 
-  echo $contact->send();
-?>
+$contact->to = $receiving_email_address;
+$contact->from_name = $_POST['name'] ?? '';
+$contact->from_email = $_POST['email'] ?? '';
+$contact->subject = $_POST['subject'] ?? '';
+
+/*
+// SMTP (recommended for production)
+$contact->smtp = array(
+  'host' => 'mail.surfux.com',
+  'username' => 'contact@surfux.com',
+  'password' => 'EMAIL_PASSWORD',
+  'port' => '587'
+);
+*/
+
+$contact->add_message($_POST['name'] ?? '', 'From');
+$contact->add_message($_POST['email'] ?? '', 'Email');
+if (!empty($_POST['phone'])) {
+    $contact->add_message($_POST['phone'], 'Phone');
+}
+$contact->add_message($_POST['message'] ?? '', 'Message', 10);
+
+echo $contact->send();
