@@ -1754,6 +1754,20 @@
       easing: 'ease-in-out',
     });
   </script>
+  <script>
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.querySelector('.php-email-form');
+  if (!form) return;
+
+  form.addEventListener('submit', function () {
+    const sent = form.querySelector('.sent-message');
+    const error = form.querySelector('.error-message');
+    if (sent) sent.style.display = 'none';
+    if (error) error.style.display = 'none';
+  });
+});
+</script>
+
 
 
 </body>
