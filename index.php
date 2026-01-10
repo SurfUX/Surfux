@@ -1686,7 +1686,7 @@
   </div>
 <?php endif; ?>
 
-            <form action="forms/contact.php" method="post">
+ <form id="contactForm" action="forms/contact.php" method="post">
   <div class="row">
     <div class="col-md-6 form-group">
       <input type="text" name="name" class="form-control" placeholder="Your Name" required>
@@ -1705,10 +1705,13 @@
     <textarea name="message" rows="5" class="form-control" placeholder="Message" required></textarea>
   </div>
 
+  <div id="formMessage" class="mt-3"></div>
+
   <div class="mt-4">
     <button type="submit">Send Message</button>
   </div>
 </form>
+
 
             </div>
           </div>
@@ -1755,7 +1758,33 @@
       easing: 'ease-in-out',
     });
   </script>
- 
+ <script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const form = this;
+  const formMessage = document.getElementById('formMessage');
+  const formData = new FormData(form);
+
+  fetch(form.action, {
+    method: 'POST',
+    body: formData
+  })
+  .then(res => res.json())
+  .then(data => {
+    if (data.status === 'success') {
+      formMessage.innerHTML = '<div class="alert alert-success">✅ Message sent successfully!</div>';
+      form.reset();
+    } else {
+      formMessage.innerHTML = '<div class="alert alert-danger">❌ Failed to send message.</div>';
+    }
+  })
+  .catch(() => {
+    formMessage.innerHTML = '<div class="alert alert-danger">❌ Server error. Try again.</div>';
+  });
+});
+</script>
+
 
 
 

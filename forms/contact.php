@@ -34,9 +34,11 @@ $body =
 "Subject: $subject\n\n".
 "Message:\n$message\n";
 
+header('Content-Type: application/json');
+
 if (mail($to, $subject, $body, $headers)) {
-    header("Location: /#contact?sent=1");
+    echo json_encode(['status' => 'success']);
 } else {
-    header("Location: /#contact?error=mail");
+    echo json_encode(['status' => 'error']);
 }
 exit;
