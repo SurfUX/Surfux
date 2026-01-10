@@ -1686,7 +1686,7 @@
   </div>
 <?php endif; ?>
 
- <form id="contactForm" action="forms/contact.php" method="post">
+ <form id="contactForm" class="php-email-form button" action="forms/contact.php" method="post">
   <div class="row">
     <div class="col-md-6 form-group">
       <input type="text" name="name" class="form-control" placeholder="Your Name" required>
