@@ -98,7 +98,7 @@
         <div class="project-meta">
           <div class="meta-item">
             <i class="bi bi-calendar3"></i>
-            <span>2025</span>
+            <span>Jan 2026</span>
           </div>
           <div class="meta-item">
             <i class="bi bi-building"></i>
@@ -184,7 +184,104 @@
     </div>
   </div>
 </div>
+  <div class="container">
 
+          <div class="project-header">
+            <div class="row">
+              <div class="col-lg-12">
+                <h1 class="project-title">Ceyluxe</h1>
+                <div class="project-meta">
+                  <div class="meta-item">
+                    <i class="bi bi-calendar3"></i>
+                    <span>June 2025</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="bi bi-building"></i>
+                    <span>Ceyluxe</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="bi bi-link-45deg"></i>
+                    <a href="https://ceyluxeco.com/" target="_blank">www.ceyluxeco.com</a>
+                  </div>
+                </div>
+                <div class="project-tags">
+                  <span class="tag">Cinnamon</span>
+                  <span class="tag">Spice</span>
+                  <span class="tag">Health</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class=" project-content">
+            <div class="row project-header">
+              <div class="col-md-6">
+                <div class="media-showcase">
+                  <div
+                    class="portfolio-details-slider swiper init-swiper swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden">
+                    <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 800,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "effect": "fade",
+                "fadeEffect": {
+                  "crossFade": true
+                },
+                "slidesPerView": 1,
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "clickable": true,
+                  "dynamicBullets": true
+                }
+              }
+            </script>
+                    <div class="swiper-wrapper" id="swiper-wrapper-595f71b1bf967dd9" aria-live="off"
+                      style="transition-duration: 0ms; transition-delay: 0ms;">
+                      <div class="swiper-slide swiper-slide-prev"
+                        style="width: 1296px; opacity: 0; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"
+                        role="group" aria-label="1 / 3" data-swiper-slide-index="0">
+                        <img src="assets/img/portfolio/ceyluxep.webp" alt="Portfolio Image" class="img-fluid">
+                      </div>
+                    </div>
+                    <div
+                      class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-bullets-dynamic"
+                      style="width: 190px;"><span class="swiper-pagination-bullet swiper-pagination-bullet-active-prev"
+                        style="left: 0px;" tabindex="0" role="button" aria-label="Go to slide 1"></span><span
+                        class="swiper-pagination-bullet swiper-pagination-bullet-active swiper-pagination-bullet-active-main"
+                        style="left: 0px;" tabindex="0" role="button" aria-label="Go to slide 2"
+                        aria-current="true"></span><span
+                        class="swiper-pagination-bullet swiper-pagination-bullet-active-next" style="left: 0px;"
+                        tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="description-box">
+                  <h3>Project Overview</h3>
+                  <p class="lead">This website was developed for Ceyluxe, a Sri Lankan company specializing in premium cinnamon-based products.</p>
+                  <p>The project focused on creating a visually appealing and modern online presence that reflects the quality and authenticity of the brand. The platform highlights product details, brand story, and customer value while offering a smooth browsing and purchase experience.</p>
+                </div>
+                <div class="technologies">
+                  <div class="tech-title">Technologies Used:</div>
+                  <div class="tech-badges">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>PHP</span>
+                    <span>JAVASCRIPT</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
         <div class="container">
          <div class="project-header"  >
           <div class="row" >
@@ -659,104 +756,7 @@
 
 
         </div>
-        <div class="container">
-
-          <div class="project-header">
-            <div class="row">
-              <div class="col-lg-12">
-                <h1 class="project-title">Ceyluxe</h1>
-                <div class="project-meta">
-                  <div class="meta-item">
-                    <i class="bi bi-calendar3"></i>
-                    <span>June 2025</span>
-                  </div>
-                  <div class="meta-item">
-                    <i class="bi bi-building"></i>
-                    <span>Ceyluxe</span>
-                  </div>
-                  <div class="meta-item">
-                    <i class="bi bi-link-45deg"></i>
-                    <a href="https://ceyluxeco.com/" target="_blank">www.ceyluxeco.com</a>
-                  </div>
-                </div>
-                <div class="project-tags">
-                  <span class="tag">Cinnamon</span>
-                  <span class="tag">Spice</span>
-                  <span class="tag">Health</span>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class=" project-content">
-            <div class="row project-header">
-              <div class="col-md-6">
-                <div class="media-showcase">
-                  <div
-                    class="portfolio-details-slider swiper init-swiper swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden">
-                    <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 800,
-                "autoplay": {
-                  "delay": 5000
-                },
-                "effect": "fade",
-                "fadeEffect": {
-                  "crossFade": true
-                },
-                "slidesPerView": 1,
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "clickable": true,
-                  "dynamicBullets": true
-                }
-              }
-            </script>
-                    <div class="swiper-wrapper" id="swiper-wrapper-595f71b1bf967dd9" aria-live="off"
-                      style="transition-duration: 0ms; transition-delay: 0ms;">
-                      <div class="swiper-slide swiper-slide-prev"
-                        style="width: 1296px; opacity: 0; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"
-                        role="group" aria-label="1 / 3" data-swiper-slide-index="0">
-                        <img src="assets/img/portfolio/ceyluxep.webp" alt="Portfolio Image" class="img-fluid">
-                      </div>
-                    </div>
-                    <div
-                      class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal swiper-pagination-bullets-dynamic"
-                      style="width: 190px;"><span class="swiper-pagination-bullet swiper-pagination-bullet-active-prev"
-                        style="left: 0px;" tabindex="0" role="button" aria-label="Go to slide 1"></span><span
-                        class="swiper-pagination-bullet swiper-pagination-bullet-active swiper-pagination-bullet-active-main"
-                        style="left: 0px;" tabindex="0" role="button" aria-label="Go to slide 2"
-                        aria-current="true"></span><span
-                        class="swiper-pagination-bullet swiper-pagination-bullet-active-next" style="left: 0px;"
-                        tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
-                   
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="description-box">
-                  <h3>Project Overview</h3>
-                  <p class="lead">This website was developed for Ceyluxe, a Sri Lankan company specializing in premium cinnamon-based products.</p>
-                  <p>The project focused on creating a visually appealing and modern online presence that reflects the quality and authenticity of the brand. The platform highlights product details, brand story, and customer value while offering a smooth browsing and purchase experience.</p>
-                </div>
-                <div class="technologies">
-                  <div class="tech-title">Technologies Used:</div>
-                  <div class="tech-badges">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>PHP</span>
-                    <span>JAVASCRIPT</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-        </div>
+      
 
     </section><!-- /Portfolio Details Section -->
 

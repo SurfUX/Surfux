@@ -1079,6 +1079,21 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
               <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/nutry.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                <div class="portfolio-info">
+                  <h4>Nutrydry</h4>
+                  <p>Food Business</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/nutry.webp" class="glightbox" title="Web Development"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="https://nutridryceylon.com/" target="_blank" title="More Details"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-wrap">
                 <img src="assets/img/portfolio/surf.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
                 <div class="portfolio-info">
                   <h4>Design Agency</h4>
@@ -1087,6 +1102,21 @@
                     <a href="assets/img/portfolio/surf.webp" class="glightbox" title="Web Development"><i
                         class="bi bi-zoom-in"></i></a>
                     <a href="https://www.surfux.com" target="_blank" title="More Details"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Ceyluxe.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                <div class="portfolio-info">
+                  <h4>Ceyluxco</h4>
+                  <p>Business</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/Ceyluxe.webp" class="glightbox" title="Web Development"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="https://ceyluxeco.com/" target="_blank" title="More Details"><i
                         class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
