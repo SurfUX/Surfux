@@ -1674,41 +1674,42 @@
                   loading="lazy"></div>
               <h3>Send a Message</h3>
 
+<?php if (isset($_GET['sent'])): ?>
+  <div class="alert alert-success">
+    ✅ Your message has been sent successfully.
+  </div>
+<?php endif; ?>
 
-              <form action="forms/contact.php" method="post" class="php-email-form">
-                <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                  </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                  </div>
-                </div>
-                <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                </div>
-                <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                </div>
+<?php if (isset($_GET['error'])): ?>
+  <div class="alert alert-danger">
+    ❌ Something went wrong. Please try again.
+  </div>
+<?php endif; ?>
 
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
+            <form action="forms/contact.php" method="post">
+  <div class="row">
+    <div class="col-md-6 form-group">
+      <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+    </div>
 
-                <div class="form-submit">
-                  <button type="submit">Send Message</button>
-                  <div class="social-links">
-                    <a href="#"><i class="bi bi-twitter"></i></a>
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
+    <div class="col-md-6 form-group mt-3 mt-md-0">
+      <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+    </div>
+  </div>
 
+  <div class="form-group mt-3">
+    <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+  </div>
 
-              </form>
+  <div class="form-group mt-3">
+    <textarea name="message" rows="5" class="form-control" placeholder="Message" required></textarea>
+  </div>
+
+  <div class="mt-4">
+    <button type="submit">Send Message</button>
+  </div>
+</form>
+
             </div>
           </div>
         </div>
@@ -1754,19 +1755,7 @@
       easing: 'ease-in-out',
     });
   </script>
-  <script>
-document.addEventListener('DOMContentLoaded', function () {
-  const form = document.querySelector('.php-email-form');
-  if (!form) return;
-
-  form.addEventListener('submit', function () {
-    const sent = form.querySelector('.sent-message');
-    const error = form.querySelector('.error-message');
-    if (sent) sent.style.display = 'none';
-    if (error) error.style.display = 'none';
-  });
-});
-</script>
+ 
 
 
 
