@@ -165,8 +165,6 @@
           <p>
             The website communicates the brand’s commitment to natural goodness, quality, and nutrition through a fresh visual identity and clear content structure. Emphasis was placed on showcasing product benefits, origin, and healthy lifestyle use cases while ensuring a smooth, engaging browsing experience across all devices.
           </p>
-
-          
         </div>
 
         <div class="technologies">
