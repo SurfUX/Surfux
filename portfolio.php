@@ -156,19 +156,17 @@
 
       <div class="col-md-6">
         <div class="description-box">
-          <h3>About Us</h3>
+          <h3>Project Overview</h3>
 
           <p class="lead">
-            Naturally Sweet. Perfectly Dehydrated.
+            This project involved designing and developing a clean, modern website for NutriDry Ceylon, a Sri Lankan brand specializing in premium dehydrated fruits and vegetables made from carefully selected local produce.
           </p>
 
           <p>
-            Pure tropical goodness in every bite. NutriDry Ceylon produces and exports premium dehydrated fruits and vegetables made from carefully selected Sri Lankan produce, preserving natural flavor and nutrition.
+            The website communicates the brand’s commitment to natural goodness, quality, and nutrition through a fresh visual identity and clear content structure. Emphasis was placed on showcasing product benefits, origin, and healthy lifestyle use cases while ensuring a smooth, engaging browsing experience across all devices.
           </p>
 
-          <p>
-            Healthy snacks for everyday life. Our products are 100% natural with no added sugar or preservatives — perfect for kids, adults, travel, office snacks, gym routines, and daily healthy living.
-          </p>
+          
         </div>
 
         <div class="technologies">
