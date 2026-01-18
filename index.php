@@ -62,6 +62,7 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <!-- Structured Data - LocalBusiness Schema -->
   <script type="application/ld+json">
@@ -191,21 +192,19 @@
 
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="hero-content">
-              <span class="hero-badge" data-aos="fade-right">Award-Winning Web Design Agency</span>
-              <h1 data-aos="fade-right">Professional Web Design, Development & Digital Marketing Solutions</h1>
-              <p data-aos="fade-right"><strong>SurfUX</strong> is a creative digital agency offering professional web
-                design, web development, graphic design, and social media marketing services. We craft engaging digital
-                experiences that help international businesses stand out online and achieve their goals.</p>
-              <div class="hero-actions" data-aos="fade-up">
+          <div class="col-lg-6 animate__animated animate__fadeInLeft">
+            <div class="hero-content" >
+              <span class="hero-badge" >Award-Winning Web Design Agency</span>
+              <h1 >Professional Web Design, Development & Digital Marketing Solutions</h1>
+              <p ><strong>SurfUX</strong> is a creative digital agency providing web design, web development, graphic design, and social media marketing services to help international businesses succeed online.</p>
+              <div class="hero-actions" >
                 <a href="#contact" class="btn-primary" aria-label="Get a free consultation">Get Free Consultation</a>
-                <a href="#portfolio" class="btn-secondary" aria-label="View our portfolio">
+                <a href="portfolio.php" class="btn-secondary" aria-label="View our portfolio">
                   <i class="bi bi-collection"></i>
                   <span>View Our Work</span>
                 </a>
               </div>
-              <div class="hero-stats" data-aos="fade-up">
+              <div class="hero-stats" >
                 <div class="stat-item">
                   <span class="stat-number">50+</span>
                   <span class="stat-label">Projects Completed</span>
@@ -221,9 +220,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 animate__animated animate__fadeInRight">
             <div class="hero-visual">
-              <div class="row g-3" data-aos="fade-left">
+              <div class="row g-3" >
                 <div class="col-6">
                   <div class="feature-card">
                     <i class="bi bi-brush" aria-hidden="true"></i>
@@ -257,24 +256,19 @@
 
       <div class="container">
 
-        <div class="row align-items-center">
-          <div class="col-lg-6">
+        <div class="row align-items-center" data-aos="fade-up">
+          <div class="col-lg-6 ">
             <div class="content">
-              <h2 data-aos="fade-right">Your Trusted Digital Design & Development Partner</h2>
-              <p data-aos="fade-right" class="lead">At <strong>SurfUX</strong>, we specialize in creating powerful web
-                design, development, and digital marketing solutions that help businesses worldwide establish their
-                online presence and achieve measurable growth.</p>
-              <p data-aos="fade-right">As a full-service digital agency, our mission is clear: combine exceptional
-                design with seamless functionality and strategic marketing to help businesses thrive online. We
-                understand that your website and brand identity are often the first impression potential customers have,
-                which is why we focus on creating experiences that engage, convert, and build lasting trust.</p>
-              <p data-aos="fade-right">From initial consultation to post-launch support, we partner with our clients
+              <h2 >Your Trusted Digital Design & Development Partner</h2>
+              <p  class="lead">At <strong>SurfUX</strong>, we specialize in web design, development, and digital marketing services that support businesses worldwide in establishing a strong online presence and achieving measurable results.</p>
+              <p >As a full service digital agency, our mission is to integrate high-quality design, functional digital solutions, and strategic marketing to support online business growth. Through a collaborative, end-to-end approach, we deliver tailored web, graphic, and social media solutions that align with each client’s brand vision and business objectives.</p>
+              <!-- <p >From initial consultation to post-launch support, we partner with our clients
                 every step of the way. Our collaborative approach ensures that every project—whether web design, graphic
                 design, or social media campaign—reflects your brand's unique vision while meeting your business
-                objectives through strategic thinking and proven best practices.</p>
+                objectives through strategic thinking and proven best practices.</p> -->
 
-              <div class="stats-container">
-                <div class="row" data-aos="fade-up">
+              <!-- <div class="stats-container">
+                <div class="row" >
                   <div class="col-md-4">
                     <div class="stat-item">
                       <div class="number">5+</div>
@@ -294,10 +288,10 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
-              <div class="cta-wrapper" data-aos="fade-up">
-                <a href="#portfolio" class="btn btn-primary" aria-label="View SurfUX portfolio">View Our Portfolio</a>
+              <div class="cta-wrapper" >
+                <a href="portfolio.php" class="btn btn-primary" aria-label="View SurfUX portfolio">View Our Portfolio</a>
                 <a href="#contact" class="btn btn-outline" aria-label="Contact SurfUX team">Get in Touch</a>
               </div>
             </div>
@@ -307,8 +301,8 @@
             <div class="image-wrapper">
               <img src="assets/img/about/about-square-8.webp"
                 alt="SurfUX web design team collaborating on client projects in Galle office"
-                class="img-fluid main-image" data-aos="fade-left" loading="lazy">
-              <div class="floating-card" data-aos="fade-right">
+                class="img-fluid main-image"  loading="lazy">
+              <div class="floating-card" >
                 <div class="card-content">
                   <i class="bi bi-award" aria-hidden="true"></i>
                   <div class="text">
@@ -329,9 +323,9 @@
     <!-- Clients Section -->
     <section id="clients" class="clients section">
 
-      <div>
+      <div data-aos="fade-up">
 
-        <div class="clients-slider swiper init-swiper">
+        <div class="clients-slider swiper init-swiper  ">
           <script type="application/json" class="swiper-config">
             {
               "loop": true,
@@ -368,75 +362,115 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-1.webp" class="img-fluid" alt="">
+                <img src="assets/img/clients/clients-1.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="assets/img/clients/clients-3.png" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-2.webp" class="img-fluid" alt="">
+                <img src="assets/img/clients/clients-4.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="assets/img/clients/clients-6.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+                <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="assets/img/clients/clients-7.png" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-3.webp" class="img-fluid" alt="">
+                <img src="assets/img/clients/clients-8.png" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-4.webp" class="img-fluid" alt="">
+                <img src="assets/img/clients/clients-9.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="assets/img/clients/clients-10.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="assets/img/clients/clients-11.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="assets/img/clients/clients-1.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="assets/img/clients/clients-3.png" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-5.webp" class="img-fluid" alt="">
+                <img src="assets/img/clients/clients-4.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+
+            
+
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="assets/img/clients/clients-6.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+                <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="assets/img/clients/clients-7.png" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-6.webp" class="img-fluid" alt="">
+                <img src="assets/img/clients/clients-8.png" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
             <div class="swiper-slide">
               <div class="client-logo">
-                <img src="assets/img/clients/clients-1.webp" class="img-fluid" alt="">
+                <img src="assets/img/clients/clients-9.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="assets/img/clients/clients-10.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
+            <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="assets/img/clients/clients-11.png" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
 
-            <div class="swiper-slide">
-              <div class="client-logo">
-                <img src="assets/img/clients/clients-2.webp" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Client Item -->
 
-            <div class="swiper-slide">
-              <div class="client-logo">
-                <img src="assets/img/clients/clients-3.webp" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Client Item -->
-
-            <div class="swiper-slide">
-              <div class="client-logo">
-                <img src="assets/img/clients/clients-4.webp" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Client Item -->
-
-            <div class="swiper-slide">
-              <div class="client-logo">
-                <img src="assets/img/clients/clients-5.webp" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Client Item -->
-
-            <div class="swiper-slide">
-              <div class="client-logo">
-                <img src="assets/img/clients/clients-6.webp" class="img-fluid" alt="">
-              </div>
-            </div><!-- End Client Item -->
+          
 
           </div>
 
@@ -447,36 +481,36 @@
     </section><!-- /Clients Section -->
 
     <!-- Featured Services Section -->
-    <section id="featured-services" class="featured-services section light-background">
+    <section id="featured-services" class="featured-services section light-background"  data-aos="fade-up">
 
       <!-- Section Title -->
       <div class="container section-title">
-        <h2 data-aos="fade-up">Our Web Design & Development Services</h2>
-        <p data-aos="fade-up">Comprehensive digital solutions to establish and grow your business online in Sri Lanka
+        <h2 >Our Web Design & Development Services</h2>
+        <p >Comprehensive digital solutions to establish and grow your business online in Sri Lanka
         </p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
-        <div class="row">
+        <div class="row  ">
           <div class="col-lg-6">
             <div class="services-content">
-              <span class="subtitle" data-aos="fade-right">What We Do</span>
-              <h3 data-aos="fade-right">Complete Digital Solutions for Your Business</h3>
-              <p data-aos="fade-right">
+              <span class="subtitle" >What We Do</span>
+              <h3 >Complete Digital Solutions for Your Business</h3>
+              <p >
                 SurfUX provides end-to-end web design and development services tailored to your business goals.
                 Whether you need a brand-new website, e-commerce platform, or complete digital transformation,
                 our team delivers solutions that combine beautiful design with technical excellence and measurable
                 results.
               </p>
-              <div class="mt-4" data-aos="fade-right">
+              <div class="mt-4" >
                 <a href="#contact" class="btn-consultation"
                   aria-label="Request free consultation with SurfUX"><span>Request a Free Consultation</span><i
                     class="bi bi-arrow-right" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-lg-6" data-aos="fade-left">
+          <div class="col-lg-6" >
             <div class="services-image">
               <img src="assets/img/services/services-9.webp"
                 alt="Professional web design and development services showcase by SurfUX team" class="img-fluid"
@@ -519,7 +553,7 @@
               <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
-                  <div class="service-card" data-aos="fade-up">
+                  <div class="service-card" >
                     <div class="icon-box">
                       <i class="bi bi-brush-fill" aria-hidden="true"></i>
                     </div>
@@ -535,7 +569,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                  <div class="service-card" data-aos="fade-up">
+                  <div class="service-card" >
                     <div class="icon-box">
                       <i class="bi bi-phone-fill" aria-hidden="true"></i>
                     </div>
@@ -551,7 +585,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                  <div class="service-card" data-aos="fade-up">
+                  <div class="service-card" >
                     <div class="icon-box">
                       <i class="bi bi-shop-window" aria-hidden="true"></i>
                     </div>
@@ -567,7 +601,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                  <div class="service-card" data-aos="fade-up">
+                  <div class="service-card" >
                     <div class="icon-box">
                       <i class="bi bi-vector-pen" aria-hidden="true"></i>
                     </div>
@@ -583,7 +617,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                  <div class="service-card" data-aos="fade-up">
+                  <div class="service-card" >
                     <div class="icon-box">
                       <i class="bi bi-search" aria-hidden="true"></i>
                     </div>
@@ -620,19 +654,19 @@
 
 
     <!-- How We Work Section -->
-    <section id="how-we-work" class="how-we-work section">
+    <section id="how-we-work" class="how-we-work section"  data-aos="fade-up">
 
       <!-- Section Title -->
-      <div class="container section-title">
-        <h2 data-aos="fade-up">How We Work</h2>
-        <p data-aos="fade-up">At SurfUX, we help startups and growing businesses turn ideas into impactful digital
+      <div class="container section-title  ">
+        <h2 >How We Work</h2>
+        <p >At SurfUX, we help startups and growing businesses turn ideas into impactful digital
           experiences, guiding them from concept to launch and beyond.</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container  ">
 
         <div class="steps-grid">
-          <div class="step-card" data-aos="fade-up">
+          <div class="step-card" >
             <div class="step-icon">
               <i class="bi bi-search"></i>
             </div>
@@ -645,7 +679,7 @@
             </div>
           </div>
 
-          <div class="step-card" data-aos="fade-up">
+          <div class="step-card" >
             <div class="step-icon">
               <i class="bi bi-lightbulb"></i>
             </div>
@@ -658,7 +692,7 @@
             </div>
           </div>
 
-          <div class="step-card" data-aos="fade-up">
+          <div class="step-card" >
             <div class="step-icon">
               <i class="bi bi-gear"></i>
             </div>
@@ -671,7 +705,7 @@
             </div>
           </div>
 
-          <div class="step-card" data-aos="fade-up">
+          <div class="step-card" >
             <div class="step-icon">
               <i class="bi bi-rocket-takeoff"></i>
             </div>
@@ -688,14 +722,14 @@
 
 
     <!-- Features Section -->
-    <section id="features" class="features section">
+    <section id="features" class="features section"  data-aos="fade-up">
 
       <div class="container">
 
-        <div class="row g-4">
+        <div class="row g-4  ">
           <div class="col-lg-4">
             <ul class="nav nav-tabs flex-column" role="tablist">
-              <li class="nav-item" data-aos="fade-right">
+              <li class="nav-item" >
                 <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#features-tab-1" role="tab">
                   <div class="d-flex align-items-center">
                     <div class="icon-box">
@@ -708,7 +742,7 @@
                   </div>
                 </a>
               </li>
-              <li class="nav-item" data-aos="fade-right">
+              <li class="nav-item" >
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" role="tab">
                   <div class="d-flex align-items-center">
                     <div class="icon-box">
@@ -721,7 +755,7 @@
                   </div>
                 </a>
               </li>
-              <li class="nav-item" data-aos="fade-right">
+              <li class="nav-item" >
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3" role="tab">
                   <div class="d-flex align-items-center">
                     <div class="icon-box">
@@ -734,7 +768,7 @@
                   </div>
                 </a>
               </li>
-              <li class="nav-item" data-aos="fade-right">
+              <li class="nav-item" >
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4" role="tab">
                   <div class="d-flex align-items-center">
                     <div class="icon-box">
@@ -747,7 +781,7 @@
                   </div>
                 </a>
               </li>
-              <li class="nav-item" data-aos="fade-right">
+              <li class="nav-item" >
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5" role="tab">
                   <div class="d-flex align-items-center">
                     <div class="icon-box">
@@ -769,7 +803,7 @@
               <div class="tab-pane fade active show" id="features-tab-1" role="tabpanel">
                 <div class="content-box">
                   <div class="row g-4">
-                    <div class="col-lg-6" data-aos="fade-left">
+                    <div class="col-lg-6" >
                       <h3>Smart Strategies for Startup Success</h3>
                       <p>We begin by understanding your vision, audience, and goals. Our team then develops a focused
                         design strategy that builds a strong online foundation for your business.</p>
@@ -782,7 +816,7 @@
                         <li><i class="bi bi-check2-circle"></i><span>Conversion-focused layout planning</span></li>
                       </ul>
                     </div>
-                    <div class="col-lg-6" data-aos="fade-left">
+                    <div class="col-lg-6" >
                       <div class="image-box">
                         <img src="assets/img/misc/misc-square-1.jpg" alt="Startup Strategy" class="img-fluid"
                           loading="lazy">
@@ -846,8 +880,8 @@
 
               <!-- Tab 4 -->
               <div class="tab-pane fade" id="features-tab-4" role="tabpanel">
-                <div class="content-box">
-                  <div class="row g-4">
+                <div class="content-box ">
+                  <div class="row g-4 ">
                     <div class="col-lg-6">
                       <h3>User Experience & Interface Design</h3>
                       <p>Our UX/UI designs prioritize user satisfaction by making your website intuitive, engaging, and
@@ -906,21 +940,21 @@
 
 
     <!-- Services Section -->
-    <section id="services" class="services section light-background">
+    <section id="services" class="services section light-background"  >
 
       <!-- Section Title -->
-      <div class="container section-title">
-        <h2 data-aos="fade-up">Our Services</h2>
-        <p data-aos="fade-up">Creative, Strategic, and Built for Growth</p>
+      <div class="container section-title" data-aos="fade-up">
+        <h2 >Our Services</h2>
+        <p >Creative, Strategic, and Built for Growth</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
-        <div class="row gy-4">
+        <div class="row gy-4  " data-aos="fade-up">
 
           <div class="col-lg-6 col-md-6">
-            <div class="service-card featured" data-aos="fade-right">
-              <!-- <div class="service-card featured" data-aos="fade-right"> -->
+            <div class="service-card featured" >
+              <!-- <div class="service-card featured" > -->
               <div class="service-icon">
                 <i class="bi bi-code-slash"></i>
               </div>
@@ -942,7 +976,7 @@
           </div>
 
           <div class="col-lg-6 col-md-6">
-            <div class="service-card" data-aos="fade-left">
+            <div class="service-card" >
               <div class="service-icon">
                 <i class="bi bi-palette"></i>
               </div>
@@ -963,7 +997,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6">
-            <div class="service-card compact" data-aos="fade-up">
+            <div class="service-card compact" >
               <div class="service-icon">
                 <i class="bi bi-graph-up-arrow"></i>
               </div>
@@ -981,7 +1015,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6">
-            <div class="service-card compact" data-aos="fade-up">
+            <div class="service-card compact" >
               <div class="service-icon">
                 <i class="bi bi-shield-check"></i>
               </div>
@@ -999,7 +1033,7 @@
           </div>
 
           <div class="col-lg-4 col-md-6">
-            <div class="service-card compact" data-aos="fade-up">
+            <div class="service-card compact" >
               <div class="service-icon">
                 <i class="bi bi-cloud-upload"></i>
               </div>
@@ -1021,25 +1055,25 @@
         <div class="stats-highlight">
           <div class="row">
             <div class="col-lg-3 col-md-6">
-              <div class="stat-item" data-aos="fade-up">
+              <div class="stat-item" >
                 <div class="stat-number">6+</div>
                 <div class="stat-label">Websites Delivered</div>
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-              <div class="stat-item" data-aos="fade-up">
+              <div class="stat-item" >
                 <div class="stat-number">98%</div>
                 <div class="stat-label">Client Satisfaction</div>
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-              <div class="stat-item" data-aos="fade-up">
+              <div class="stat-item" >
                 <div class="stat-number">24/7</div>
                 <div class="stat-label">Support & Maintenance</div>
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-              <div class="stat-item" data-aos="fade-up">
+              <div class="stat-item" >
                 <div class="stat-number">5+</div>
                 <div class="stat-label">Years in Business</div>
               </div>
@@ -1051,283 +1085,120 @@
 
     </section><!-- /Services Section -->
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <!-- Team Section -->
+<section id="team" class="team section  " data-aos="fade-up">
+  <!-- Section Title -->
+  <div class="container section-title">
+    <h2>Our Team</h2>
+    <p>Meet the experts driving our web design and development projects</p>
+  </div><!-- End Section Title -->
 
-      <!-- Section Title -->
-      <div class="container section-title">
-        <h2>Portfolio</h2>
-        <p>Discover how SurfUX blends creativity and technology to craft seamless user experiences</p>
-      </div><!-- End Section Title -->
+  <div class="container">
 
-      <div class="container">
+    <div class="team-slider swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 800,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": 1,
+          "spaceBetween": 30,
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "navigation": {
+            "nextEl": ".swiper-button-next",
+            "prevEl": ".swiper-button-prev"
+          },
+          "breakpoints": {
+            "576": {
+              "slidesPerView": 2
+            },
+            "992": {
+              "slidesPerView": 3
+            },
+            "1200": {
+              "slidesPerView": 4
+            }
+          }
+        }
+      </script>
+      <div class="swiper-wrapper">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center mt-4">
-              <ul class="portfolio-filters isotope-filters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-web">Web Development</li>
-                <li data-filter=".filter-graphic">Graphic Design</li>
-
-              </ul>
+         <div class="swiper-slide">
+          <div class="team-card">
+            <div class="team-image">
+              <img src="assets/img/person/Sonali.png" class="img-fluid" alt="" loading="lazy">
+              <div class="team-overlay">
+                <div class="social-links">
+                  <!-- <a href="#"><i class="bi bi-twitter-x"></i></a> -->
+                  <a href="https://web.facebook.com/sonali.malshi.98" target="_blank"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/sona_malshi/" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/sonali-malshi-466996200/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
             </div>
-          </div>
+            <div class="team-content">
+              <h3>Sonali Malshi</h3>
+              <span>Marketing Specialist</span>
+              <p>Boosting client visibility with strategic digital campaigns and data-driven marketing solutions.</p>
+            </div>
+          </div><!-- End Team Card -->
+        </div><!-- End slide item -->
 
-          <div class="row gy-4 portfolio-container isotope-container">
+      <div class="swiper-slide">
+          <div class="team-card">
+            <div class="team-image">
+              <img src="assets/img/person/Gihan.png " class="img-fluid" alt="" loading="lazy">
+              <div class="team-overlay">
+                <div class="social-links">
+                  <!-- <a href="#"><i class="bi bi-twitter-x"></i></a> -->
+                  <a href="https://web.facebook.com/gihan.supun" target="_blank"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/gihan_supun/" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/gihan-supun/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="team-content">
+              <h3>Gihan Supun </h3>
+              <span>Chief Technology Officer</span>
+              <p>Leading our tech team to build innovative, fast, and secure websites for our clients worldwide.</p>
+            </div>
+          </div><!-- End Team Card -->
+        </div><!-- End slide item -->
+        
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/nutry.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>Nutrydry</h4>
-                  <p>Food Business</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/nutry.webp" class="glightbox" title="Web Development"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="https://nutridryceylon.com/" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/surf.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>Design Agency</h4>
-                  <p>Software</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/surf.webp" class="glightbox" title="Web Development"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="https://www.surfux.com" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Ceyluxe.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>Ceyluxco</h4>
-                  <p>Business</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/Ceyluxe.webp" class="glightbox" title="Web Development"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="https://ceyluxeco.com/" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-graphic">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/travel.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>Travel Agency</h4>
-                  <p>Travel</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/travel.webp" class="glightbox" title="Graphic Design"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="https://www.surfux.com" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+     
 
+      
 
+        
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Tanga.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>Tanga Pest Control</h4>
-                  <p>Business</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/Tanga.webp" class="glightbox" title="Web Development"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="https://pestmanagement.lk/" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-graphic">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/logo.webp" class="img-fluid" alt="Royal Logo" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>Logo Design</h4>
-                  <p>Portfolio</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/logo.webp" class="glightbox" title="Graphic Design"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="https://www.surfux.com" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Suren.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>Suren Dassanayaka</h4>
-                  <p>Portfolio</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/Suren.webp" class="glightbox" title="Web Development"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="https://surendassanayake.com/" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-graphic">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/job.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>Job Advert</h4>
-                  <p>Company</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/job.webp" class="glightbox" title="Graphic Design"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="https://www.surfux.com" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Hikka.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>Hikka Tours</h4>
-                  <p>Portfolio</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/Hikka.webp" class="glightbox" title="Web Development"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="https://hikkatours.com/" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-graphic">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/shimla.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>Tour Package</h4>
-                  <p>Company</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/shimla.webp" class="glightbox" title="Graphic Design"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="https://www.surfux.com" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-           
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/surfing.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>Surf SL</h4>
-                  <p>Portfolio</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/surfing.webp" class="glightbox" title="Web Development"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="./portfolio/surf/index.html" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-graphic">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/study.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>Education</h4>
-                  <p>Portfolio</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/study.webp" class="glightbox" title="Graphic Design"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="https://www.surfux.com" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/Gihan.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>Gihan Supun</h4>
-                  <p>Portfolio</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/Gihan.webp" class="glightbox" title="Web Development"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="https://gihansupun.com/" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-graphic">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/surfoffer.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>Surf Offer</h4>
-                  <p>Portfolio</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/surfoffer.webp" class="glightbox" title="Graphic Design"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="https://www.surfux.com" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/dd.webp" class="img-fluid" alt="Portfolio Image" loading="lazy">
-                <div class="portfolio-info">
-                  <h4>D&D Architect</h4>
-                  <p>Portfolio</p>
-                  <div class="portfolio-links">
-                    <a href="assets/img/portfolio/dd.webp" class="glightbox" title="Web Development"><i
-                        class="bi bi-zoom-in"></i></a>
-                    <a href="https://dndarchitec.com/" target="_blank" title="More Details"><i
-                        class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
+      
 
       </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
 
-    </section><!-- /Portfolio Section -->
+  </div>
 
+</section>
+
+<!-- /Team Section -->
 
     <!-- FAQ Section -->
-    <section id="faq" class="faq section">
+    <section id="faq" class="faq section  " >
 
       <!-- Section Title -->
-      <div class="container section-title">
-        <h2 data-aos="fade-up">Frequently Asked Questions</h2>
-        <p data-aos="fade-up">Answers to the most common questions from our clients</p>
+      <div class="container section-title" >
+        <h2 >Frequently Asked Questions</h2>
+        <p >Answers to the most common questions from our clients</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -1337,7 +1208,7 @@
 
             <div class="faq-wrapper">
 
-              <div class="faq-item faq-active" data-aos="fade-right">
+              <div class="faq-item faq-active" >
                 <div class="faq-header">
                   <div class="faq-icon">
                     <i class="bi bi-question-circle"></i>
@@ -1356,7 +1227,7 @@
                 </div>
               </div><!-- End FAQ Item -->
 
-              <div class="faq-item" data-aos="fade-left">
+              <div class="faq-item" >
                 <div class="faq-header">
                   <div class="faq-icon">
                     <i class="bi bi-question-circle"></i>
@@ -1375,7 +1246,7 @@
                 </div>
               </div><!-- End FAQ Item -->
 
-              <div class="faq-item" data-aos="fade-right">
+              <div class="faq-item" >
                 <div class="faq-header">
                   <div class="faq-icon">
                     <i class="bi bi-question-circle"></i>
@@ -1394,7 +1265,7 @@
                 </div>
               </div><!-- End FAQ Item -->
 
-              <div class="faq-item" data-aos="fade-left">
+              <div class="faq-item" >
                 <div class="faq-header">
                   <div class="faq-icon">
                     <i class="bi bi-question-circle"></i>
@@ -1413,7 +1284,7 @@
                 </div>
               </div><!-- End FAQ Item -->
 
-              <div class="faq-item" data-aos="fade-right">
+              <div class="faq-item" >
                 <div class="faq-header">
                   <div class="faq-icon">
                     <i class="bi bi-question-circle"></i>
@@ -1443,7 +1314,7 @@
 
 
     <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section light-background">
+    <section id="call-to-action" class="call-to-action section light-background  " >
 
       <div class="container">
 
@@ -1454,42 +1325,42 @@
             <div class="shape shape-3"></div>
           </div>
 
-          <div class="row g-0">
+          <div class="row g-0" >
             <div class="col-lg-7">
               <div class="cta-content p-5">
-                <span class="badge-custom" data-aos="fade-right">Premium Offer</span>
-                <h2 class="mt-4 mb-4" data-aos="fade-right">Boost Your Online Presence with SurfUX</h2>
-                <p class="mb-4" data-aos="fade-right">We create stunning, responsive, and high-performing websites
+                <span class="badge-custom" >Premium Offer</span>
+                <h2 class="mt-4 mb-4" >Boost Your Online Presence with SurfUX</h2>
+                <p class="mb-4" >We create stunning, responsive, and high-performing websites
                   tailored to your brand. Launch your digital journey with confidence and style.</p>
 
                 <div class="row benefits-row mb-5">
                   <div class="col-md-6">
                     <div class="benefit-item">
-                      <div class="icon-box" data-aos="fade-right">
+                      <div class="icon-box" >
                         <i class="bi bi-lightning-charge-fill"></i>
                       </div>
                       <div class="benefit-content">
-                        <h5 data-aos="fade-right">Fast Deployment</h5>
-                        <p data-aos="fade-right">Get your website up and running quickly without compromising quality.
+                        <h5 >Fast Deployment</h5>
+                        <p >Get your website up and running quickly without compromising quality.
                         </p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="benefit-item">
-                      <div class="icon-box" data-aos="fade-right">
+                      <div class="icon-box" >
                         <i class="bi bi-shield-check"></i>
                       </div>
                       <div class="benefit-content">
-                        <h5 data-aos="fade-right">Secure & Reliable</h5>
-                        <p data-aos="fade-right">We prioritize security, ensuring your website and user data are fully
+                        <h5 >Secure & Reliable</h5>
+                        <p >We prioritize security, ensuring your website and user data are fully
                           protected.</p>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="action-buttons" data-aos="fade-right">
+                <div class="action-buttons" >
                   <a href="#" class="btn btn-primary">Start Your Project</a>
                   <a href="#" class="btn btn-outline">Learn More</a>
                   <div class="guarantee-badge">
@@ -1503,12 +1374,12 @@
             <div class="col-lg-5">
               <div class="cta-image-container">
                 <img src="assets/img/illustration/person-front-computer-working-html.jpg" alt="Illustration"
-                  class="img-fluid main-image" data-aos="fade-left">
-                <div class="floating-element element-1" data-aos="fade-down-right">
+                  class="img-fluid main-image" >
+                <div class="floating-element element-1" >
                   <i class="bi bi-star-fill"></i>
                   <span>4.9 Rating</span>
                 </div>
-                <div class="floating-element element-2" data-aos="fade-down-right">
+                <div class="floating-element element-2" >
                   <i class="bi bi-people-fill"></i>
                   <span>10k+ Users</span>
                 </div>
@@ -1637,7 +1508,7 @@
 
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <section id="contact" class="contact section  ">
       <!-- Section Title -->
       <div class="container section-title">
         <h2>Contact Us</h2>
@@ -1779,6 +1650,7 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>

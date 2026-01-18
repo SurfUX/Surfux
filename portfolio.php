@@ -90,8 +90,8 @@
     <section id="portfolio-details" class="portfolio-details section">
 
       <div class="container">
-  <div class="project-header">
-    <div class="row">
+  <div class="project-header" >
+    <div class="row" >
       <div class="col-lg-12">
         <h1 class="project-title">NutriDry Ceylon</h1>
 
@@ -785,6 +785,12 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    AOS.init({
+      duration: 1500, // speed for all animations
+      easing: 'ease-in-out',
+    });
+  </script>
 
 </body>
 
