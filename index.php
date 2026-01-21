@@ -368,11 +368,11 @@
 
             
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="client-logo">
                 <img src="assets/img/clients/clients-3.png" class="img-fluid" alt="">
               </div>
-            </div><!-- End Client Item -->
+            </div> -->
 
             <div class="swiper-slide">
               <div class="client-logo">
@@ -422,11 +422,11 @@
 
             
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="client-logo">
                 <img src="assets/img/clients/clients-3.png" class="img-fluid" alt="">
               </div>
-            </div><!-- End Client Item -->
+            </div> -->
 
             <div class="swiper-slide">
               <div class="client-logo">
