@@ -419,6 +419,11 @@
                 <img src="assets/img/clients/clients-1.png" class="img-fluid" alt="">
               </div>
             </div><!-- End Client Item -->
+             <div class="swiper-slide">
+              <div class="client-logo">
+                <img src="assets/img/clients/clients-12.png" class="img-fluid" alt="">
+              </div>
+            </div><!-- End Client Item -->
 
             
 
