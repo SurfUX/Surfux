@@ -32,6 +32,7 @@
             <li><a href="index.php#about">About</a></li>
             <li><a href="index.php#services">Services</a></li>
             <li><a href="portfolio.php">Portfolio</a>
+            <li><a href="gallery.php">Gallery</a>
             <!-- <li><a href="#team">Team</a></li> -->
             <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>

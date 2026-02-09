@@ -969,7 +969,7 @@
                   landing pages to full-scale platforms, our code is clean, responsive, and built to convert.</p>
                 <div class="service-meta">
                   <span class="badge popular">Most Popular</span>
-                  <span class="price">Starting at $1,000</span>
+                  <!-- <span class="price">Starting at $1,000</span> -->
                 </div>
                 <a href="#contact" class="btn-cta">
                   <span>Contact Us</span>
@@ -990,7 +990,7 @@
                 <p>We create sleek, user-friendly interfaces that enhance the way people interact with your brand
                   online. Every design is crafted with usability, accessibility, and aesthetic appeal in mind.</p>
                 <div class="service-meta">
-                  <span class="price">Starting at $500</span>
+                  <!-- <span class="price">Starting at $500</span> -->
                 </div>
                 <a href="#contact" class="btn-cta">
                   <span>Contact Us</span>
@@ -1089,6 +1089,7 @@
       </div>
 
     </section><!-- /Services Section -->
+
 
     <!-- Team Section -->
 <section id="team" class="team section  " data-aos="fade-up">
