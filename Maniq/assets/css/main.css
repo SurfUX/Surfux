@@ -154,11 +154,15 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   animation: fadeInDown 1s both;
+  color: #fbc86a !important;
 }
 
 @media (max-width: 768px) {
   .hero h2 {
-    font-size: 30px;
+    font-size: 25px;
+  }
+  .hero img {
+    width: 75%;
   }
 }
 
@@ -981,7 +985,7 @@ section,
   padding: 0;
   font-size: 18px;
   font-weight: 500;
-  margin: 0 10px;
+  margin: 5px 10px;
   line-height: 1;
   transition: all 0.3s ease-in-out;
 }
@@ -1200,4 +1204,10 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.btn-primary {
+  background: #ebcd75 !important;
+  border: none;
+  animation: fadeInDown 1s both;
 }
