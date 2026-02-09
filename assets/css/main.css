@@ -4216,6 +4216,14 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
+
+.portfolio-info {
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  font-size: 14px;
+  margin-bottom: 0;
+  padding-right: 50px;
+  margin-top: 10px;
+}
 .portfolio-details {
   --card-border-radius: 12px;
   --content-spacing: 4rem;
