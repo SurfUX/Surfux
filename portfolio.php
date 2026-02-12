@@ -292,7 +292,7 @@
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
                         <img
-                          src="assets/img/portfolio/velvora.webp"
+                          src="assets/img/portfolio/velvora.png"
                           alt="Velvora Travels Website"
                           class="img-fluid"
                         />
@@ -402,7 +402,7 @@
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
                         <img
-                          src="assets/img/portfolio/nutridry.webp"
+                          src="assets/img/portfolio/nutridry.png"
                           alt="NutriDry Ceylon Website"
                           class="img-fluid"
                         />
@@ -521,7 +521,7 @@
                         data-swiper-slide-index="0"
                       >
                         <img
-                          src="assets/img/portfolio/ceyluxep.webp"
+                          src="assets/img/portfolio/ceyluxco.png"
                           alt="Portfolio Image"
                           class="img-fluid"
                         />
@@ -660,7 +660,7 @@
                         data-swiper-slide-index="0"
                       >
                         <img
-                          src="assets/img/portfolio/tangap.webp"
+                          src="assets/img/portfolio/tanga.png"
                           alt="Portfolio Image"
                           class="img-fluid"
                         />
@@ -775,7 +775,7 @@
                         data-swiper-slide-index="0"
                       >
                         <img
-                          src="assets/img/portfolio/surenp.webp"
+                          src="assets/img/portfolio/suren.png"
                           alt="Portfolio Image"
                           class="img-fluid"
                         />
@@ -889,7 +889,7 @@
                         data-swiper-slide-index="0"
                       >
                         <img
-                          src="assets/img/portfolio/hikkatoursp.webp"
+                          src="assets/img/portfolio/hikka.png"
                           alt="Portfolio Image"
                           class="img-fluid"
                         />
@@ -1030,7 +1030,7 @@
                         data-swiper-slide-index="0"
                       >
                         <img
-                          src="assets/img/portfolio/ddp.webp"
+                          src="assets/img/portfolio/dd.png"
                           alt="Portfolio Image"
                           class="img-fluid"
                         />
@@ -1170,7 +1170,7 @@
                         data-swiper-slide-index="0"
                       >
                         <img
-                          src="assets/img/portfolio/gihanp.webp"
+                          src="assets/img/portfolio/gihan.png"
                           alt="Portfolio Image"
                           class="img-fluid"
                         />
