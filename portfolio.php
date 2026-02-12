@@ -129,28 +129,30 @@
   <div class="project-header">
     <div class="row">
       <div class="col-lg-12">
-        <h1 class="project-title">Velvora Travels</h1>
+        <h1 class="project-title">SpamShield</h1>
 
         <div class="project-meta">
           <div class="meta-item">
             <i class="bi bi-calendar3"></i>
-            <span>2025</span>
+            <span>February 2026</span>
           </div>
           <div class="meta-item">
             <i class="bi bi-building"></i>
-            <span>Velvora Travels</span>
+            <span>AI-Powered SaaS Product</span>
           </div>
           <div class="meta-item">
             <i class="bi bi-link-45deg"></i>
-            <a href="https://velvoratravels.com/" target="_blank">www.velvoratours.com</a>
+            <a href="https://getspamshield.com/" target="_blank">
+              www.getspamshield.com
+            </a>
           </div>
         </div>
 
         <div class="project-tags">
-          <span class="tag">Luxury Travel</span>
-          <span class="tag">Sri Lanka Tours</span>
-          <span class="tag">Adventure & Culture</span>
-          <span class="tag">Wellness Travel</span>
+          <span class="tag">Cyber Security</span>
+          <span class="tag">AI Spam Protection</span>
+          <span class="tag">SaaS Platform</span>
+          <span class="tag">Form Security</span>
         </div>
       </div>
     </div>
@@ -180,16 +182,13 @@
 
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img
-                  src="assets/img/portfolio/velvora.webp"
-                  alt="Velvora Travels Website"
-                  class="img-fluid"
-                />
+                <img src="assets/img/portfolio/spamshield.png"
+                     alt="SpamShield AI Spam Protection Dashboard"
+                     class="img-fluid">
               </div>
             </div>
 
             <div class="swiper-pagination"></div>
-
           </div>
         </div>
       </div>
@@ -199,35 +198,147 @@
           <h3>Project Overview</h3>
 
           <p class="lead">
-            Velvora Travels is a luxury travel company connecting European
-            travellers with curated journeys across Sri Lanka, with expanding
-            destinations across the Maldives and Asia.
+            SpamShield is an AI-powered spam protection platform designed to
+            block bots and unwanted submissions without disrupting real users.
           </p>
 
           <p>
-            This project focused on building a visually immersive, modern travel
-            platform that showcases signature tour experiences including
-            adventure, cultural heritage, wildlife, wellness retreats, and
-            romantic escapes. The website was designed to highlight trust,
-            premium service, and seamless user experience while making tour
-            selection simple and engaging.
+            SurfUX partnered with SpamShield to support the product’s digital
+            presence through strategic positioning, user focused design, and
+            clear product storytelling. The goal was to communicate trust,
+            simplicity, and technical credibility to both developers and
+            businesses.
+          </p>
+
+          <p>
+            The solution emphasizes seamless integration, no-captcha protection,
+            and long-term reliability helping businesses secure their forms while
+            maintaining a smooth user experience.
           </p>
         </div>
 
         <div class="technologies">
-          <div class="tech-title">Key Experience Highlights:</div>
+          <div class="tech-title">Key Outcomes & Highlights</div>
           <div class="tech-badges">
-            <span>Luxury Curated Tours</span>
-            <span>Local Expert Guides</span>
-            <span>Verified Hotels & Transport</span>
-            <span>24/7 Personal Support</span>
-            <span>Multi-Destination Growth</span>
+            <span>AI-Based Spam Detection</span>
+            <span>No-Captcha User Experience</span>
+            <span>Developer Friendly Integration</span>
+            <span>High Conversion Form Security</span>
+            <span>Scalable SaaS Architecture</span>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
+        <div class="container">
+          <div class="project-header">
+            <div class="row">
+              <div class="col-lg-12">
+                <h1 class="project-title">Velvora Travels</h1>
+
+                <div class="project-meta">
+                  <div class="meta-item">
+                    <i class="bi bi-calendar3"></i>
+                    <span>January 2026</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="bi bi-building"></i>
+                    <span>Velvora Travels</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="bi bi-link-45deg"></i>
+                    <a href="https://velvoratravels.com/" target="_blank"
+                      >www.velvoratours.com</a
+                    >
+                  </div>
+                </div>
+
+                <div class="project-tags">
+                  <span class="tag">Luxury Travel</span>
+                  <span class="tag">Sri Lanka Tours</span>
+                  <span class="tag">Adventure & Culture</span>
+                  <span class="tag">Wellness Travel</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <div class="row project-header">
+              <div class="col-md-6">
+                <div class="media-showcase">
+                  <div
+                    class="portfolio-details-slider swiper init-swiper swiper-fade"
+                  >
+                    <script type="application/json" class="swiper-config">
+                      {
+                        "loop": true,
+                        "speed": 800,
+                        "autoplay": { "delay": 5000 },
+                        "effect": "fade",
+                        "fadeEffect": { "crossFade": true },
+                        "slidesPerView": 1,
+                        "pagination": {
+                          "el": ".swiper-pagination",
+                          "clickable": true,
+                          "dynamicBullets": true
+                        }
+                      }
+                    </script>
+
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/portfolio/velvora.webp"
+                          alt="Velvora Travels Website"
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="description-box">
+                  <h3>Project Overview</h3>
+
+                  <p class="lead">
+                    Velvora Travels is a luxury travel company connecting
+                    European travellers with curated journeys across Sri Lanka,
+                    with expanding destinations across the Maldives and Asia.
+                  </p>
+
+                  <p>
+                    This project focused on building a visually immersive,
+                    modern travel platform that showcases signature tour
+                    experiences including adventure, cultural heritage,
+                    wildlife, wellness retreats, and romantic escapes. The
+                    website was designed to highlight trust, premium service,
+                    and seamless user experience while making tour selection
+                    simple and engaging.
+                  </p>
+                </div>
+
+                <div class="technologies">
+                  <div class="tech-title">Key Experience Highlights:</div>
+                  <div class="tech-badges">
+                    <span>Luxury Curated Tours</span>
+                    <span>Local Expert Guides</span>
+                    <span>Verified Hotels & Transport</span>
+                    <span>24/7 Personal Support</span>
+                    <span>Multi-Destination Growth</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div class="container">
           <div class="project-header">
@@ -238,7 +349,7 @@
                 <div class="project-meta">
                   <div class="meta-item">
                     <i class="bi bi-calendar3"></i>
-                    <span>Jan 2026</span>
+                    <span>December 2025</span>
                   </div>
                   <div class="meta-item">
                     <i class="bi bi-building"></i>
@@ -343,7 +454,7 @@
                 <div class="project-meta">
                   <div class="meta-item">
                     <i class="bi bi-calendar3"></i>
-                    <span>June 2025</span>
+                    <span>November 2025</span>
                   </div>
                   <div class="meta-item">
                     <i class="bi bi-building"></i>
@@ -482,7 +593,7 @@
                 <div class="project-meta">
                   <div class="meta-item">
                     <i class="bi bi-calendar3"></i>
-                    <span>June 2025</span>
+                    <span>October 2025</span>
                   </div>
                   <div class="meta-item">
                     <i class="bi bi-building"></i>
@@ -597,7 +708,7 @@
                 <div class="project-meta">
                   <div class="meta-item">
                     <i class="bi bi-calendar3"></i>
-                    <span>June 2025</span>
+                    <span>September 2025</span>
                   </div>
                   <div class="meta-item">
                     <i class="bi bi-building"></i>
@@ -711,7 +822,7 @@
                 <div class="project-meta">
                   <div class="meta-item">
                     <i class="bi bi-calendar3"></i>
-                    <span>June 2025</span>
+                    <span>August 2025</span>
                   </div>
                   <div class="meta-item">
                     <i class="bi bi-building"></i>
@@ -852,7 +963,7 @@
                 <div class="project-meta">
                   <div class="meta-item">
                     <i class="bi bi-calendar3"></i>
-                    <span>June 2025</span>
+                    <span>July 2025</span>
                   </div>
                   <div class="meta-item">
                     <i class="bi bi-building"></i>
