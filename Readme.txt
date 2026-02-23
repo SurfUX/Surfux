@@ -1,6 +1,2 @@
-Thanks for downloading this template!
+Company URL: https://www.surfux.com
 
-Template Name: Passion
-Template URL: https://bootstrapmade.com/passion-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
