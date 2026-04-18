@@ -188,7 +188,7 @@
           <div class="tech-badges">
             <span>Gem Inventory Management</span>
             <span>Category-Based Organization</span>
-            <span>Real-Time Availability Updates</span>
+            <span>Real Time Availability Updates</span>
             <span>Image & Product Data Control</span>
             <span>Responsive Dashboard Interface</span>
           </div>
@@ -279,14 +279,14 @@
           <p>
             SurfUX developed this catalogue experience to simplify how global
             buyers explore and discover gemstones. The interface allows users to
-            browse by gemstone type—such as Blue Sapphire, Padparadscha, Spinel,
-            and Zircon—while maintaining a clean, luxury-focused presentation.
+            browse by gemstone type such as Blue Sapphire, Padparadscha, Spinel,
+            and Zircon while maintaining a clean, luxury focused presentation.
           </p>
 
           <p>
             Each gemstone is presented with clarity and elegance, ensuring that
-            attention remains on color, cut, and brilliance—key factors in
-            high-value gemstone selection.
+            attention remains on color, cut, and brilliance key factors in
+            high value gemstone selection.
           </p>
         </div>
 
@@ -295,8 +295,8 @@
           <div class="tech-badges">
             <span>Category-Based Gem Browsing</span>
             <span>Luxury Minimal UI Design</span>
-            <span>High-Quality Visual Presentation</span>
-            <span>Real-Time Availability Status</span>
+            <span>High Quality Visual Presentation</span>
+            <span>Real Time Availability Status</span>
             <span>Optimized for Global Buyers</span>
           </div>
         </div>
@@ -391,8 +391,8 @@
           </p>
 
           <p>
-            The platform was designed to highlight transparency—from mine to
-            market—while delivering a seamless browsing experience for global
+            The platform was designed to highlight transparency from mine to
+            market while delivering a seamless browsing experience for global
             buyers seeking certified, high-quality gemstones.
           </p>
         </div>
@@ -488,7 +488,7 @@
 
           <p class="lead">
             CIATS is a Sri Lankan institute specializing in professional
-            surveying services and industry-focused technical education.
+            surveying services and industry focused technical education.
           </p>
 
           <p>
@@ -511,7 +511,7 @@
           <div class="tech-title">Key Highlights & Capabilities</div>
           <div class="tech-badges">
             <span>Advanced Surveying Solutions</span>
-            <span>Industry-Focused Training Programs</span>
+            <span>Industry Focused Training Programs</span>
             <span>Modern Geospatial Technology</span>
             <span>Experienced Technical Experts</span>
             <span>Education & Industry Integration</span>
@@ -616,7 +616,7 @@
                 <div class="tech-title">Key Outcomes & Highlights</div>
                 <div class="tech-badges">
                   <span>AI-Based Spam Detection</span>
-                  <span>No-Captcha User Experience</span>
+                  <span>No Captcha User Experience</span>
                   <span>Developer Friendly Integration</span>
                   <span>High Conversion Form Security</span>
                   <span>Scalable SaaS Architecture</span>
