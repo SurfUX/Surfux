@@ -6,12 +6,17 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <!-- Primary Meta Tags -->
-  <title>SurfUX - Custom Web Design & Development Agency in Sri Lanka | UI/UX Design</title>
-  <meta name="title" content="SurfUX - Custom Web Design & Development Agency in Sri Lanka | UI/UX Design">
+  <title>SurfUX - Web Design & Social Media Marketing Agency for Modern Brands</title>
+
+  <meta name="title"
+    content="SurfUX - Web Design & Social Media Marketing Agency for Modern Brands">
+
   <meta name="description"
-    content="SurfUX is a creative web design agency in Galle, Sri Lanka specializing in custom website development, UI/UX design, and brand identity for startups and growing businesses. Transform your ideas into stunning online experiences.">
+    content="SurfUX is a creative digital agency specializing in modern web design, custom website development, social media marketing, branding, and digital experiences for startups, businesses, and growing brands worldwide.">
+
   <meta name="keywords"
-    content="web design Sri Lanka, web development agency, custom website design, UI UX design, startup web design, responsive web design, brand identity design, e-commerce solutions, Galle web design, Sri Lanka digital agency">
+    content="web design agency, social media marketing agency, digital marketing, custom website development, modern web design, branding agency, responsive websites, startup marketing, creative agency, social media management, content creation, e-commerce development, digital branding">
+
   <meta name="author" content="SurfUX">
   <meta name="robots" content="index, follow">
 
@@ -20,142 +25,162 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.surfux.com/">
-  <meta property="og:title" content="SurfUX - Custom Web Design & Development Agency in Sri Lanka">
+
+  <meta property="og:url"
+    content="https://www.surfux.com/">
+
+  <meta property="og:title"
+    content="SurfUX - Web Design & Social Media Marketing Agency">
+
   <meta property="og:description"
-    content="Transform your startup ideas into stunning online experiences. Professional web design, UI/UX, and brand identity services in Sri Lanka.">
-  <meta property="og:image" content="https://www.surfux.com/assets/img/og-image.jpg">
+    content="We create modern websites, social media campaigns, branding, and digital experiences for startups and growing brands worldwide.">
+
+  <meta property="og:image"
+    content="https://www.surfux.com/assets/img/og-image.jpg">
+
   <meta property="og:site_name" content="SurfUX">
+
   <meta property="og:locale" content="en_US">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://www.surfux.com/">
-  <meta name="twitter:title" content="SurfUX - Custom Web Design & Development Agency in Sri Lanka">
-  <meta name="twitter:description"
-    content="Transform your startup ideas into stunning online experiences. Professional web design, UI/UX, and brand identity services.">
-  <meta name="twitter:image" content="https://www.surfux.com/assets/img/twitter-card.jpg">
 
-  <!-- Geographic Meta Tags -->
-  <meta name="geo.region" content="LK-2">
-  <meta name="geo.placename" content="Galle">
-  <meta name="geo.position" content="6.0726002;80.2130318">
-  <meta name="ICBM" content="6.0726002, 80.2130318">
+  <meta name="twitter:url"
+    content="https://www.surfux.com/">
+
+  <meta name="twitter:title"
+    content="SurfUX - Web Design & Social Media Marketing Agency">
+
+  <meta name="twitter:description"
+    content="Modern web design, social media marketing, branding, and digital experiences for startups and businesses worldwide.">
+
+  <meta name="twitter:image"
+    content="https://www.surfux.com/assets/img/twitter-card.jpg">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts - Preconnect for Performance -->
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+
+  <link href="https://fonts.gstatic.com"
+    rel="preconnect"
+    crossorigin>
+
   <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-  <!-- Structured Data - LocalBusiness Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": "https://www.surfux.com",
-    "name": "SurfUX",
-    "alternateName": "SurfUX Web Design Agency",
-    "description": "Creative web design and development agency specializing in custom websites, UI/UX design, and brand identity for startups and growing businesses.",
-    "url": "https://www.surfux.com",
-    "logo": "https://www.surfux.com/assets/img/logo.png",
-    "image": "https://www.surfux.com/assets/img/surfux-office.jpg",
-    "telephone": "+94717758637",
-    "email": "contact@surfux.com",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "227, Bokaramullagoda, Uluwitike",
-      "addressLocality": "Galle",
-      "addressRegion": "Southern Province",
-      "postalCode": "80000",
-      "addressCountry": "LK"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "6.0726002",
-      "longitude": "80.2130318"
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "09:00",
-      "closes": "18:00"
-    },
-    "sameAs": [
-      "https://www.facebook.com/surfux",
-      "https://www.instagram.com/surfux",
-      "https://www.linkedin.com/company/surfux"
-    ],
-    "areaServed": {
-      "@type": "Country",
-      "name": "Sri Lanka"
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Web Design Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Custom Web Development",
-            "description": "High-performance websites tailored to your brand and audience"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "UI/UX Design",
-            "description": "User-friendly interfaces that enhance brand interaction"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Brand Identity Design",
-            "description": "Logos, color palettes, and visual systems for brand presence"
-          }
-        }
-      ]
-    }
-  }
-  </script>
+  <!-- Animation Libraries -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <!-- Structured Data - Organization Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
+
     "@type": "Organization",
+
     "name": "SurfUX",
+
+    "alternateName": "SurfUX Digital Agency",
+
     "url": "https://www.surfux.com",
+
     "logo": "https://www.surfux.com/assets/img/logo.png",
+
+    "image": "https://www.surfux.com/assets/img/og-image.jpg",
+
+    "description":
+    "Creative digital agency specializing in web design, social media marketing, branding, and modern digital experiences for startups and growing brands worldwide.",
+
     "foundingDate": "2019",
+
+    "telephone": "+94717758637",
+
+    "email": "contact@surfux.com",
+
+    "priceRange": "$$",
+
+    "sameAs": [
+      "https://www.facebook.com/surfux",
+      "https://www.instagram.com/surfux",
+      "https://www.linkedin.com/company/surfux"
+    ],
+
     "contactPoint": {
       "@type": "ContactPoint",
+
       "telephone": "+94717758637",
-      "contactType": "Customer Service",
-      "email": "contact@surfux.com",
-      "areaServed": "LK",
-      "availableLanguage": ["English", "Sinhala"]
+
+      "contactType": "Customer Support",
+
+      "availableLanguage": ["English"]
+    },
+
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+
+      "name": "Digital Services",
+
+      "itemListElement": [
+
+        {
+          "@type": "Offer",
+
+          "itemOffered": {
+            "@type": "Service",
+
+            "name": "Custom Web Development",
+
+            "description":
+            "Modern high-performance websites tailored for brands and businesses."
+          }
+        },
+
+        {
+          "@type": "Offer",
+
+          "itemOffered": {
+            "@type": "Service",
+
+            "name": "Social Media Marketing",
+
+            "description":
+            "Creative social media strategies, content creation, and digital campaigns."
+          }
+        },
+
+        {
+          "@type": "Offer",
+
+          "itemOffered": {
+            "@type": "Service",
+
+            "name": "Brand Identity Design",
+
+            "description":
+            "Professional branding solutions including logos, visual systems, and digital identity."
+          }
+        }
+
+      ]
     }
   }
   </script>
@@ -185,7 +210,7 @@
 
       <div class="hero-background">
         <img src="assets/img/bg/bg-14.jpg"
-          alt="Modern web design workspace showing creative development process at SurfUX agency in Sri Lanka"
+          alt="Creative web design, development, and social media marketing workspace by SurfUX digital agency"
           data-aos-duration="1000" loading="eager">
         <div class="overlay"></div>
       </div>
@@ -1106,112 +1131,7 @@
     </section><!-- /Services Section -->
 
 
-    <!-- Team Section -->
-<section id="team" class="team section  " data-aos="fade-up">
-  <!-- Section Title -->
-  <div class="container section-title">
-    <h2>Our Team</h2>
-    <p>Meet the experts driving our web design and development projects</p>
-  </div><!-- End Section Title -->
 
-  <div class="container">
-
-    <div class="team-slider swiper init-swiper">
-      <script type="application/json" class="swiper-config">
-        {
-          "loop": true,
-          "speed": 800,
-          "autoplay": {
-            "delay": 5000
-          },
-          "slidesPerView": 1,
-          "spaceBetween": 30,
-          "pagination": {
-            "el": ".swiper-pagination",
-            "type": "bullets",
-            "clickable": true
-          },
-          "navigation": {
-            "nextEl": ".swiper-button-next",
-            "prevEl": ".swiper-button-prev"
-          },
-          "breakpoints": {
-            "576": {
-              "slidesPerView": 2
-            },
-            "992": {
-              "slidesPerView": 3
-            },
-            "1200": {
-              "slidesPerView": 4
-            }
-          }
-        }
-      </script>
-      <div class="swiper-wrapper">
-
-         <div class="swiper-slide">
-          <div class="team-card">
-            <div class="team-image">
-              <img src="assets/img/person/Sonali.png" class="img-fluid" alt="" loading="lazy">
-              <div class="team-overlay">
-                <div class="social-links">
-                  <!-- <a href="#"><i class="bi bi-twitter-x"></i></a> -->
-                  <a href="https://web.facebook.com/sonali.malshi.98" target="_blank"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/sona_malshi/" target="_blank"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/sonali-malshi-466996200/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="team-content">
-              <h3>Sonali Malshi</h3>
-              <span>Marketing Specialist</span>
-              <p>Boosting client visibility with strategic digital campaigns and data-driven marketing solutions.</p>
-            </div>
-          </div><!-- End Team Card -->
-        </div><!-- End slide item -->
-
-      <div class="swiper-slide">
-          <div class="team-card">
-            <div class="team-image">
-              <img src="assets/img/person/Gihan.png " class="img-fluid" alt="" loading="lazy">
-              <div class="team-overlay">
-                <div class="social-links">
-                  <!-- <a href="#"><i class="bi bi-twitter-x"></i></a> -->
-                  <a href="https://web.facebook.com/gihan.supun" target="_blank"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/gihan_supun/" target="_blank"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/gihan-supun/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="team-content">
-              <h3>Gihan Supun </h3>
-              <span>Chief Technology Officer</span>
-              <p>Leading our tech team to build innovative, fast, and secure websites for our clients worldwide.</p>
-            </div>
-          </div><!-- End Team Card -->
-        </div><!-- End slide item -->
-        
-
-     
-
-      
-
-        
-
-      
-
-      </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
-
-  </div>
-
-</section>
-
-<!-- /Team Section -->
 
     <!-- FAQ Section -->
     <section id="faq" class="faq section  " >
