@@ -2,68 +2,189 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
   <!-- Primary Meta Tags -->
-  <title>
-    SurfUX - Custom Web Design & Development Agency in Sri Lanka | UI/UX
-    Design
-  </title>
-  <meta name="title" content="SurfUX - Custom Web Design & Development Agency in Sri Lanka | UI/UX Design" />
+  <title>SurfUX - Web Design & Social Media Marketing Agency for Modern Brands</title>
+
+  <meta name="title"
+    content="SurfUX - Web Design & Social Media Marketing Agency for Modern Brands">
+
   <meta name="description"
-    content="SurfUX is a creative web design agency in Galle, Sri Lanka specializing in custom website development, UI/UX design, and brand identity for startups and growing businesses. Transform your ideas into stunning online experiences." />
+    content="SurfUX is a creative digital agency specializing in modern web design, custom website development, social media marketing, branding, and digital experiences for startups, businesses, and growing brands worldwide.">
+
   <meta name="keywords"
-    content="web design Sri Lanka, web development agency, custom website design, UI UX design, startup web design, responsive web design, brand identity design, e-commerce solutions, Galle web design, Sri Lanka digital agency" />
-  <meta name="author" content="SurfUX" />
-  <meta name="robots" content="index, follow" />
+    content="web design agency, social media marketing agency, digital marketing, custom website development, modern web design, branding agency, responsive websites, startup marketing, creative agency, social media management, content creation, e-commerce development, digital branding">
+
+  <meta name="author" content="SurfUX">
+  <meta name="robots" content="index, follow">
 
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://www.surfux.com/" />
+  <link rel="canonical" href="https://www.surfux.com/">
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.surfux.com/" />
-  <meta property="og:title" content="SurfUX - Custom Web Design & Development Agency in Sri Lanka" />
+  <meta property="og:type" content="website">
+
+  <meta property="og:url"
+    content="https://www.surfux.com/">
+
+  <meta property="og:title"
+    content="SurfUX - Web Design & Social Media Marketing Agency">
+
   <meta property="og:description"
-    content="Transform your startup ideas into stunning online experiences. Professional web design, UI/UX, and brand identity services in Sri Lanka." />
-  <meta property="og:image" content="https://www.surfux.com/assets/img/og-image.jpg" />
-  <meta property="og:site_name" content="SurfUX" />
-  <meta property="og:locale" content="en_US" />
+    content="We create modern websites, social media campaigns, branding, and digital experiences for startups and growing brands worldwide.">
+
+  <meta property="og:image"
+    content="https://www.surfux.com/assets/img/og-image.jpg">
+
+  <meta property="og:site_name" content="SurfUX">
+
+  <meta property="og:locale" content="en_US">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:url" content="https://www.surfux.com/" />
-  <meta name="twitter:title" content="SurfUX - Custom Web Design & Development Agency in Sri Lanka" />
-  <meta name="twitter:description"
-    content="Transform your startup ideas into stunning online experiences. Professional web design, UI/UX, and brand identity services." />
-  <meta name="twitter:image" content="https://www.surfux.com/assets/img/twitter-card.jpg" />
+  <meta name="twitter:card" content="summary_large_image">
 
-  <!-- Geographic Meta Tags -->
-  <meta name="geo.region" content="LK-2" />
-  <meta name="geo.placename" content="Galle" />
-  <meta name="geo.position" content="6.0726002;80.2130318" />
-  <meta name="ICBM" content="6.0726002, 80.2130318" />
+  <meta name="twitter:url"
+    content="https://www.surfux.com/">
+
+  <meta name="twitter:title"
+    content="SurfUX - Web Design & Social Media Marketing Agency">
+
+  <meta name="twitter:description"
+    content="Modern web design, social media marketing, branding, and digital experiences for startups and businesses worldwide.">
+
+  <meta name="twitter:image"
+    content="https://www.surfux.com/assets/img/twitter-card.jpg">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon" />
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Fonts - Preconnect for Performance -->
-  <link href="https://fonts.googleapis.com" rel="preconnect" />
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+
+  <link href="https://fonts.gstatic.com"
+    rel="preconnect"
+    crossorigin>
+
   <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Animation Libraries -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Structured Data - Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+
+    "@type": "Organization",
+
+    "name": "SurfUX",
+
+    "alternateName": "SurfUX Digital Agency",
+
+    "url": "https://www.surfux.com",
+
+    "logo": "https://www.surfux.com/assets/img/logo.png",
+
+    "image": "https://www.surfux.com/assets/img/og-image.jpg",
+
+    "description":
+    "Creative digital agency specializing in web design, social media marketing, branding, and modern digital experiences for startups and growing brands worldwide.",
+
+    "foundingDate": "2019",
+
+    "telephone": "+94717758637",
+
+    "email": "contact@surfux.com",
+
+    "priceRange": "$$",
+
+    "sameAs": [
+      "https://www.facebook.com/surfux",
+      "https://www.instagram.com/surfux",
+      "https://www.linkedin.com/company/surfux"
+    ],
+
+    "contactPoint": {
+      "@type": "ContactPoint",
+
+      "telephone": "+94717758637",
+
+      "contactType": "Customer Support",
+
+      "availableLanguage": ["English"]
+    },
+
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+
+      "name": "Digital Services",
+
+      "itemListElement": [
+
+        {
+          "@type": "Offer",
+
+          "itemOffered": {
+            "@type": "Service",
+
+            "name": "Custom Web Development",
+
+            "description":
+            "Modern high-performance websites tailored for brands and businesses."
+          }
+        },
+
+        {
+          "@type": "Offer",
+
+          "itemOffered": {
+            "@type": "Service",
+
+            "name": "Social Media Marketing",
+
+            "description":
+            "Creative social media strategies, content creation, and digital campaigns."
+          }
+        },
+
+        {
+          "@type": "Offer",
+
+          "itemOffered": {
+            "@type": "Service",
+
+            "name": "Brand Identity Design",
+
+            "description":
+            "Professional branding solutions including logos, visual systems, and digital identity."
+          }
+        }
+
+      ]
+    }
+  }
+  </script>
+
 </head>
 
 <body class="portfolio-details-page">
@@ -91,47 +212,47 @@
     <!-- Portfolio Details Section -->
     <section id="portfolio-details" class="portfolio-details section">
 
-    <div class="container">
-  <div class="project-header">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1 class="project-title">Maniq Ceylon – Admin Dashboard</h1>
+      <div class="container">
+        <div class="project-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="project-title">Maniq Ceylon – Admin Dashboard</h1>
 
-        <div class="project-meta">
-          <div class="meta-item">
-            <i class="bi bi-calendar3"></i>
-            <span>2025</span>
-          </div>
-          <div class="meta-item">
-            <i class="bi bi-building"></i>
-            <span>Gemstone E-Catalogue System</span>
-          </div>
-          <div class="meta-item">
-            <i class="bi bi-link-45deg"></i>
-            <a href="#" target="_blank">
-              www.mymaniqbook.com
-            </a>
+              <div class="project-meta">
+                <div class="meta-item">
+                  <i class="bi bi-calendar3"></i>
+                  <span>2025</span>
+                </div>
+                <div class="meta-item">
+                  <i class="bi bi-building"></i>
+                  <span>Gemstone E-Catalogue System</span>
+                </div>
+                <div class="meta-item">
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="#" target="_blank">
+                    www.mymaniqbook.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Admin Panel</span>
+                <span class="tag">Inventory Management</span>
+                <span class="tag">Gem Catalogue</span>
+                <span class="tag">Dashboard UI</span>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="project-tags">
-          <span class="tag">Admin Panel</span>
-          <span class="tag">Inventory Management</span>
-          <span class="tag">Gem Catalogue</span>
-          <span class="tag">Dashboard UI</span>
-        </div>
-      </div>
-    </div>
-  </div>
+        <div class="project-content">
+          <div class="row project-header">
 
-  <div class="project-content">
-    <div class="row project-header">
+            <div class="col-md-6">
+              <div class="media-showcase">
+                <div class="portfolio-details-slider swiper init-swiper swiper-fade">
 
-      <div class="col-md-6">
-        <div class="media-showcase">
-          <div class="portfolio-details-slider swiper init-swiper swiper-fade">
-
-            <script type="application/json" class="swiper-config">
+                  <script type="application/json" class="swiper-config">
               {
                 "loop": true,
                 "speed": 800,
@@ -146,86 +267,84 @@
               }
             </script>
 
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="assets/img/portfolio/dashboard.webp"
-                     alt="Maniq Ceylon Admin Dashboard"
-                     class="img-fluid">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/dashboard.webp" alt="Maniq Ceylon Admin Dashboard"
+                        class="img-fluid">
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+                </div>
               </div>
             </div>
 
-            <div class="swiper-pagination"></div>
+            <div class="col-md-6">
+              <div class="description-box">
+                <h3>Project Overview</h3>
+
+                <p class="lead">
+                  The Maniq Ceylon Admin Dashboard is a centralized platform designed
+                  to manage gemstone inventory, catalogue updates, and product
+                  availability in real time.
+                </p>
+
+                <p>
+                  SurfUX developed this dashboard to give full control over the
+                  e-catalogue system, allowing administrators to easily add, update,
+                  and manage gemstones across multiple categories such as sapphires,
+                  spinels, garnets, and more.
+                </p>
+
+                <p>
+                  The system is built with a clean and intuitive interface, ensuring
+                  efficient workflow management while maintaining accuracy, speed, and
+                  consistency across the entire digital catalogue.
+                </p>
+              </div>
+
+              <div class="technologies">
+                <div class="tech-title">Key Features & Capabilities</div>
+                <div class="tech-badges">
+                  <span>Gem Inventory Management</span>
+                  <span>Category-Based Organization</span>
+                  <span>Real Time Availability Updates</span>
+                  <span>Image & Product Data Control</span>
+                  <span>Responsive Dashboard Interface</span>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="col-md-6">
-        <div class="description-box">
-          <h3>Project Overview</h3>
-
-          <p class="lead">
-            The Maniq Ceylon Admin Dashboard is a centralized platform designed
-            to manage gemstone inventory, catalogue updates, and product
-            availability in real time.
-          </p>
-
-          <p>
-            SurfUX developed this dashboard to give full control over the
-            e-catalogue system, allowing administrators to easily add, update,
-            and manage gemstones across multiple categories such as sapphires,
-            spinels, garnets, and more.
-          </p>
-
-          <p>
-            The system is built with a clean and intuitive interface, ensuring
-            efficient workflow management while maintaining accuracy, speed, and
-            consistency across the entire digital catalogue.
-          </p>
-        </div>
-
-        <div class="technologies">
-          <div class="tech-title">Key Features & Capabilities</div>
-          <div class="tech-badges">
-            <span>Gem Inventory Management</span>
-            <span>Category-Based Organization</span>
-            <span>Real Time Availability Updates</span>
-            <span>Image & Product Data Control</span>
-            <span>Responsive Dashboard Interface</span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</div>
-       <div class="container">
+      <div class="container">
   <div class="project-header">
     <div class="row">
       <div class="col-lg-12">
-        <h1 class="project-title">Maniq Ceylon – E-Catalogue Platform</h1>
+        <h1 class="project-title">CourierFlex UI/UX Design</h1>
 
         <div class="project-meta">
           <div class="meta-item">
             <i class="bi bi-calendar3"></i>
-            <span>2025</span>
+            <span>January 2026</span>
           </div>
+
+          <div class="meta-item">
+            <i class="bi bi-palette"></i>
+            <span>UI/UX Design Project</span>
+          </div>
+
           <div class="meta-item">
             <i class="bi bi-building"></i>
-            <span>Luxury Gemstone Brand</span>
-          </div>
-          <div class="meta-item">
-            <i class="bi bi-link-45deg"></i>
-            <a href="#" target="_blank">
-              www.mymaniqbook.com
-            </a>
+            <span>CourierFlex</span>
           </div>
         </div>
 
         <div class="project-tags">
-          <span class="tag">E-Catalogue</span>
-          <span class="tag">Natural Gemstones</span>
-          <span class="tag">Luxury Experience</span>
-          <span class="tag">Global Buyers</span>
+          <span class="tag">UI/UX Design</span>
+          <span class="tag">Courier Website</span>
+          <span class="tag">Landing Page Design</span>
         </div>
       </div>
     </div>
@@ -233,7 +352,6 @@
 
   <div class="project-content">
     <div class="row project-header">
-
       <div class="col-md-6">
         <div class="media-showcase">
           <div class="portfolio-details-slider swiper init-swiper swiper-fade">
@@ -242,116 +360,13 @@
               {
                 "loop": true,
                 "speed": 800,
-                "autoplay": { "delay": 5000 },
+                "autoplay": {
+                  "delay": 5000
+                },
                 "effect": "fade",
-                "fadeEffect": { "crossFade": true },
-                "slidesPerView": 1,
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "clickable": true
-                }
-              }
-            </script>
-
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="assets/img/portfolio/book.webp"
-                     alt="Maniq Ceylon Gem Catalogue Interface"
-                     class="img-fluid">
-              </div>
-            </div>
-
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="description-box">
-          <h3>Project Overview</h3>
-
-          <p class="lead">
-            Maniq Ceylon’s e-catalogue is a premium digital platform designed to
-            showcase rare, natural gemstones in a refined and visually immersive
-            environment.
-          </p>
-
-          <p>
-            SurfUX developed this catalogue experience to simplify how global
-            buyers explore and discover gemstones. The interface allows users to
-            browse by gemstone type such as Blue Sapphire, Padparadscha, Spinel,
-            and Zircon while maintaining a clean, luxury focused presentation.
-          </p>
-
-          <p>
-            Each gemstone is presented with clarity and elegance, ensuring that
-            attention remains on color, cut, and brilliance key factors in
-            high value gemstone selection.
-          </p>
-        </div>
-
-        <div class="technologies">
-          <div class="tech-title">Key Experience Highlights</div>
-          <div class="tech-badges">
-            <span>Category-Based Gem Browsing</span>
-            <span>Luxury Minimal UI Design</span>
-            <span>High Quality Visual Presentation</span>
-            <span>Real Time Availability Status</span>
-            <span>Optimized for Global Buyers</span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</div>
-    <div class="container">
-  <div class="project-header">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1 class="project-title">Liyan Maniq</h1>
-
-        <div class="project-meta">
-          <div class="meta-item">
-            <i class="bi bi-calendar3"></i>
-            <span>2025</span>
-          </div>
-          <div class="meta-item">
-            <i class="bi bi-building"></i>
-            <span>Premium Gemstone Brand</span>
-          </div>
-          <div class="meta-item">
-            <i class="bi bi-link-45deg"></i>
-            <a href="https://liyanmaniq.com/" target="_blank">
-              www.liyanmaniq.com
-            </a>
-          </div>
-        </div>
-
-        <div class="project-tags">
-          <span class="tag">Natural Gemstones</span>
-          <span class="tag">Sri Lankan Gems</span>
-          <span class="tag">Luxury Brand</span>
-          <span class="tag">Global Export</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="project-content">
-    <div class="row project-header">
-
-      <div class="col-md-6">
-        <div class="media-showcase">
-          <div class="portfolio-details-slider swiper init-swiper swiper-fade">
-
-            <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 800,
-                "autoplay": { "delay": 5000 },
-                "effect": "fade",
-                "fadeEffect": { "crossFade": true },
+                "fadeEffect": {
+                  "crossFade": true
+                },
                 "slidesPerView": 1,
                 "pagination": {
                   "el": ".swiper-pagination",
@@ -363,13 +378,14 @@
 
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src="assets/img/portfolio/liyan.webp"
-                     alt="Liyan Maniq Natural Gemstones"
-                     class="img-fluid">
+                <img src="assets/img/portfolio/courierflex.webp"
+                  alt="CourierFlex courier service landing page UI UX design created by SurfUX"
+                  class="img-fluid" />
               </div>
             </div>
 
             <div class="swiper-pagination"></div>
+
           </div>
         </div>
       </div>
@@ -379,80 +395,289 @@
           <h3>Project Overview</h3>
 
           <p class="lead">
-            Liyan Maniq is a premium gemstone brand specializing in ethically
-            sourced, natural gemstones from Sri Lanka and Madagascar.
+            This UI/UX design project was created for CourierFlex, a modern
+            courier and delivery service platform focused on fast, reliable,
+            and user-friendly parcel delivery experiences.
           </p>
 
           <p>
-            SurfUX partnered with Liyan Maniq to create a refined digital presence
-            that reflects trust, luxury, and authenticity. The goal was to present
-            gemstones not just as products, but as rare investments and timeless
-            pieces of natural beauty.
-          </p>
-
-          <p>
-            The platform was designed to highlight transparency from mine to
-            market while delivering a seamless browsing experience for global
-            buyers seeking certified, high-quality gemstones.
+            The interface was carefully designed to provide a clean visual
+            hierarchy, engaging layout composition, and a smooth user journey.
+            The landing page combines modern typography, strategic spacing,
+            and vibrant branding elements to improve user engagement and
+            conversion rates while maintaining full responsiveness across all
+            devices.
           </p>
         </div>
 
         <div class="technologies">
-          <div class="tech-title">Key Results & Highlights</div>
+          <div class="tech-title">Design Highlights:</div>
+
           <div class="tech-badges">
-            <span>Ethically Sourced Gemstones</span>
-            <span>Mine-to-Market Transparency</span>
-            <span>Luxury Brand Positioning</span>
-            <span>Global Customer Reach</span>
-            <span>Trust-Driven Experience</span>
+            <span>Modern UI Design</span>
+            <span>User-Centered UX</span>
+            <span>Responsive Layout</span>
+            <span>Creative Visual Branding</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="container">
+        <div class="project-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="project-title">Maniq Ceylon – E-Catalogue Platform</h1>
+
+              <div class="project-meta">
+                <div class="meta-item">
+                  <i class="bi bi-calendar3"></i>
+                  <span>2025</span>
+                </div>
+                <div class="meta-item">
+                  <i class="bi bi-building"></i>
+                  <span>Luxury Gemstone Brand</span>
+                </div>
+                <div class="meta-item">
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="#" target="_blank">
+                    www.mymaniqbook.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">E-Catalogue</span>
+                <span class="tag">Natural Gemstones</span>
+                <span class="tag">Luxury Experience</span>
+                <span class="tag">Global Buyers</span>
+              </div>
+            </div>
           </div>
         </div>
 
+        <div class="project-content">
+          <div class="row project-header">
+
+            <div class="col-md-6">
+              <div class="media-showcase">
+                <div class="portfolio-details-slider swiper init-swiper swiper-fade">
+
+                  <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 800,
+                "autoplay": { "delay": 5000 },
+                "effect": "fade",
+                "fadeEffect": { "crossFade": true },
+                "slidesPerView": 1,
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "clickable": true
+                }
+              }
+            </script>
+
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/book.webp" alt="Maniq Ceylon Gem Catalogue Interface"
+                        class="img-fluid">
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="description-box">
+                <h3>Project Overview</h3>
+
+                <p class="lead">
+                  Maniq Ceylon’s e-catalogue is a premium digital platform designed to
+                  showcase rare, natural gemstones in a refined and visually immersive
+                  environment.
+                </p>
+
+                <p>
+                  SurfUX developed this catalogue experience to simplify how global
+                  buyers explore and discover gemstones. The interface allows users to
+                  browse by gemstone type such as Blue Sapphire, Padparadscha, Spinel,
+                  and Zircon while maintaining a clean, luxury focused presentation.
+                </p>
+
+                <p>
+                  Each gemstone is presented with clarity and elegance, ensuring that
+                  attention remains on color, cut, and brilliance key factors in
+                  high value gemstone selection.
+                </p>
+              </div>
+
+              <div class="technologies">
+                <div class="tech-title">Key Experience Highlights</div>
+                <div class="tech-badges">
+                  <span>Category-Based Gem Browsing</span>
+                  <span>Luxury Minimal UI Design</span>
+                  <span>High Quality Visual Presentation</span>
+                  <span>Real Time Availability Status</span>
+                  <span>Optimized for Global Buyers</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+  <div class="project-header">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="project-title">Architecture Portfolio UI/UX Design</h1>
+
+        <div class="project-meta">
+          <div class="meta-item">
+            <i class="bi bi-calendar3"></i>
+            <span>February 2026</span>
+          </div>
+
+          <div class="meta-item">
+            <i class="bi bi-palette"></i>
+            <span>UI/UX Design Portfolio</span>
+          </div>
+
+          <div class="meta-item">
+            <i class="bi bi-building"></i>
+            <span>Architecture</span>
+          </div>
+        </div>
+
+        <div class="project-tags">
+          <span class="tag">Architecture Portfolio</span>
+          <span class="tag">UI/UX Design</span>
+          <span class="tag">Personal Branding</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-content">
+    <div class="row project-header">
+      <div class="col-md-6">
+        <div class="media-showcase">
+          <div class="portfolio-details-slider swiper init-swiper swiper-fade">
+
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 800,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "effect": "fade",
+                "fadeEffect": {
+                  "crossFade": true
+                },
+                "slidesPerView": 1,
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "clickable": true,
+                  "dynamicBullets": true
+                }
+              }
+            </script>
+
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="assets/img/portfolio/architecture.webp"
+                  alt="Modern architecture portfolio UI UX design created by SurfUX"
+                  class="img-fluid" />
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="description-box">
+          <h3>Project Overview</h3>
+
+          <p class="lead">
+            This UI/UX design project was developed for a modern architecture
+            portfolio website focused on showcasing personal branding,
+            creative direction, and professional architectural services.
+          </p>
+
+          <p>
+            The design approach combines a minimal dark aesthetic with bold
+            typography, cinematic visual presentation, and strategic layout
+            composition to create a premium digital experience. Special
+            attention was given to portfolio visibility, user engagement,
+            responsive performance, and elegant interaction flow to ensure the
+            website reflects both creativity and professionalism.
+          </p>
+        </div>
+
+        <div class="technologies">
+          <div class="tech-title">Design Highlights:</div>
+
+          <div class="tech-badges">
+            <span>Luxury Dark UI</span>
+            <span>Modern Typography</span>
+            <span>Responsive Experience</span>
+            <span>Creative Portfolio Layout</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
       <div class="container">
-  <div class="project-header">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1 class="project-title">CIATS</h1>
+        <div class="project-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="project-title">Liyan Maniq</h1>
 
-        <div class="project-meta">
-          <div class="meta-item">
-            <i class="bi bi-calendar3"></i>
-            <span>2026</span>
-          </div>
-          <div class="meta-item">
-            <i class="bi bi-building"></i>
-            <span>Surveying & Technical Education Institute</span>
-          </div>
-          <div class="meta-item">
-            <i class="bi bi-link-45deg"></i>
-            <a href="#" target="_blank">
-              www.ciats.lk
-            </a>
+              <div class="project-meta">
+                <div class="meta-item">
+                  <i class="bi bi-calendar3"></i>
+                  <span>2025</span>
+                </div>
+                <div class="meta-item">
+                  <i class="bi bi-building"></i>
+                  <span>Premium Gemstone Brand</span>
+                </div>
+                <div class="meta-item">
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="https://liyanmaniq.com/" target="_blank">
+                    www.liyanmaniq.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Natural Gemstones</span>
+                <span class="tag">Sri Lankan Gems</span>
+                <span class="tag">Luxury Brand</span>
+                <span class="tag">Global Export</span>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="project-tags">
-          <span class="tag">Surveying Services</span>
-          <span class="tag">Technical Education</span>
-          <span class="tag">Geospatial Solutions</span>
-          <span class="tag">Professional Training</span>
-        </div>
-      </div>
-    </div>
-  </div>
+        <div class="project-content">
+          <div class="row project-header">
 
-  <div class="project-content">
-    <div class="row project-header">
-      <div class="col-md-6">
-        <div class="media-showcase">
-          <div class="portfolio-details-slider swiper init-swiper swiper-fade">
+            <div class="col-md-6">
+              <div class="media-showcase">
+                <div class="portfolio-details-slider swiper init-swiper swiper-fade">
 
-            <script type="application/json" class="swiper-config">
+                  <script type="application/json" class="swiper-config">
               {
                 "loop": true,
                 "speed": 800,
@@ -468,17 +693,131 @@
               }
             </script>
 
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img 
-                  src="assets/img/portfolio/ciat.webp" 
-                  alt="CIATS Surveying and Education Platform"
-                  class="img-fluid">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/liyan.webp" alt="Liyan Maniq Natural Gemstones" class="img-fluid">
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+                </div>
               </div>
             </div>
 
-            <div class="swiper-pagination"></div>
+            <div class="col-md-6">
+              <div class="description-box">
+                <h3>Project Overview</h3>
+
+                <p class="lead">
+                  Liyan Maniq is a premium gemstone brand specializing in ethically
+                  sourced, natural gemstones from Sri Lanka and Madagascar.
+                </p>
+
+                <p>
+                  SurfUX partnered with Liyan Maniq to create a refined digital presence
+                  that reflects trust, luxury, and authenticity. The goal was to present
+                  gemstones not just as products, but as rare investments and timeless
+                  pieces of natural beauty.
+                </p>
+
+                <p>
+                  The platform was designed to highlight transparency from mine to
+                  market while delivering a seamless browsing experience for global
+                  buyers seeking certified, high-quality gemstones.
+                </p>
+              </div>
+
+              <div class="technologies">
+                <div class="tech-title">Key Results & Highlights</div>
+                <div class="tech-badges">
+                  <span>Ethically Sourced Gemstones</span>
+                  <span>Mine-to-Market Transparency</span>
+                  <span>Luxury Brand Positioning</span>
+                  <span>Global Customer Reach</span>
+                  <span>Trust-Driven Experience</span>
+                </div>
+              </div>
+
+            </div>
           </div>
+        </div>
+      </div>
+<div class="container">
+  <div class="project-header">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="project-title">AurumFlux UI/UX Design</h1>
+
+        <div class="project-meta">
+          <div class="meta-item">
+            <i class="bi bi-calendar3"></i>
+            <span>March 2026</span>
+          </div>
+
+          <div class="meta-item">
+            <i class="bi bi-palette"></i>
+            <span>Technology Website UI/UX</span>
+          </div>
+
+          <div class="meta-item">
+            <i class="bi bi-building"></i>
+            <span>AurumFlux</span>
+          </div>
+        </div>
+
+        <div class="project-tags">
+          <span class="tag">Technology UI</span>
+          <span class="tag">AI Solutions</span>
+          <span class="tag">Modern Web Design</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-content">
+    <div class="row project-header">
+
+      <div class="col-md-6">
+        <div class="media-showcase">
+
+          <div class="portfolio-details-slider swiper init-swiper swiper-fade">
+
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 800,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "effect": "fade",
+                "fadeEffect": {
+                  "crossFade": true
+                },
+                "slidesPerView": 1,
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "clickable": true,
+                  "dynamicBullets": true
+                }
+              }
+            </script>
+
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <img src="assets/img/portfolio/aurumflux.webp"
+                  alt="AurumFlux modern technology website UI UX homepage design by SurfUX"
+                  class="img-fluid" />
+              </div>
+
+              
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+          </div>
+
         </div>
       </div>
 
@@ -487,37 +826,268 @@
           <h3>Project Overview</h3>
 
           <p class="lead">
-            CIATS is a Sri Lankan institute specializing in professional
-            surveying services and industry focused technical education.
+            This UI/UX design project was created for AurumFlux, a modern
+            digital technology company focused on AI solutions, IoT systems,
+            data analytics, and digital transformation services.
           </p>
 
           <p>
-            This project focused on creating a strong, professional digital
-            presence that reflects the institute’s expertise, credibility,
-            and contribution to national development. The website highlights
-            both service offerings and training programs, positioning CIATS
-            as a trusted partner for industries and an educational pathway
-            for future professionals.
+            The website interface was designed with a futuristic dark-themed
+            visual style combined with premium typography, modern layouts, and
+            strategic user experience principles. The design emphasizes
+            innovation, scalability, and professionalism while creating a
+            smooth and engaging browsing experience across desktop and mobile
+            devices.
           </p>
 
           <p>
-            The platform was designed to balance technical authority with
-            accessibility, ensuring clear communication of services,
-            practical learning opportunities, and modern surveying solutions.
+            Special attention was given to service presentation, visual
+            hierarchy, interaction flow, and conversion-focused call-to-action
+            sections to strengthen the brand’s digital identity and improve
+            user engagement.
           </p>
         </div>
 
         <div class="technologies">
-          <div class="tech-title">Key Highlights & Capabilities</div>
+          <div class="tech-title">Design Highlights:</div>
+
           <div class="tech-badges">
-            <span>Advanced Surveying Solutions</span>
-            <span>Industry Focused Training Programs</span>
-            <span>Modern Geospatial Technology</span>
-            <span>Experienced Technical Experts</span>
-            <span>Education & Industry Integration</span>
+            <span>Dark Modern UI</span>
+            <span>AI Technology Branding</span>
+            <span>Responsive UX Design</span>
+            <span>Conversion Focused Layout</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+      <div class="container">
+        <div class="project-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="project-title">CIATS</h1>
+
+              <div class="project-meta">
+                <div class="meta-item">
+                  <i class="bi bi-calendar3"></i>
+                  <span>2026</span>
+                </div>
+                <div class="meta-item">
+                  <i class="bi bi-building"></i>
+                  <span>Surveying & Technical Education Institute</span>
+                </div>
+                <div class="meta-item">
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="#" target="_blank">
+                    www.ciats.lk
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Surveying Services</span>
+                <span class="tag">Technical Education</span>
+                <span class="tag">Geospatial Solutions</span>
+                <span class="tag">Professional Training</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="row project-header">
+            <div class="col-md-6">
+              <div class="media-showcase">
+                <div class="portfolio-details-slider swiper init-swiper swiper-fade">
+
+                  <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 800,
+                "autoplay": { "delay": 5000 },
+                "effect": "fade",
+                "fadeEffect": { "crossFade": true },
+                "slidesPerView": 1,
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "clickable": true,
+                  "dynamicBullets": true
+                }
+              }
+            </script>
+
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/ciat.webp" alt="CIATS Surveying and Education Platform"
+                        class="img-fluid">
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="description-box">
+                <h3>Project Overview</h3>
+
+                <p class="lead">
+                  CIATS is a Sri Lankan institute specializing in professional
+                  surveying services and industry focused technical education.
+                </p>
+
+                <p>
+                  This project focused on creating a strong, professional digital
+                  presence that reflects the institute’s expertise, credibility,
+                  and contribution to national development. The website highlights
+                  both service offerings and training programs, positioning CIATS
+                  as a trusted partner for industries and an educational pathway
+                  for future professionals.
+                </p>
+
+                <p>
+                  The platform was designed to balance technical authority with
+                  accessibility, ensuring clear communication of services,
+                  practical learning opportunities, and modern surveying solutions.
+                </p>
+              </div>
+
+              <div class="technologies">
+                <div class="tech-title">Key Highlights & Capabilities</div>
+                <div class="tech-badges">
+                  <span>Advanced Surveying Solutions</span>
+                  <span>Industry Focused Training Programs</span>
+                  <span>Modern Geospatial Technology</span>
+                  <span>Experienced Technical Experts</span>
+                  <span>Education & Industry Integration</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+      <div class="container">
+  <div class="project-header">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="project-title">Park N Ride UI/UX Design</h1>
+
+        <div class="project-meta">
+          <div class="meta-item">
+            <i class="bi bi-calendar3"></i>
+            <span>April 2026</span>
+          </div>
+
+          <div class="meta-item">
+            <i class="bi bi-palette"></i>
+            <span>Airport Parking UI/UX Design</span>
+          </div>
+
+          <div class="meta-item">
+            <i class="bi bi-building"></i>
+            <span>Park N Ride</span>
+          </div>
+        </div>
+
+        <div class="project-tags">
+          <span class="tag">Airport Parking</span>
+          <span class="tag">Booking Platform</span>
+          <span class="tag">UI/UX Design</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-content">
+    <div class="row project-header">
+
+      <div class="col-md-6">
+        <div class="media-showcase">
+
+          <div class="portfolio-details-slider swiper init-swiper swiper-fade">
+
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 800,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "effect": "fade",
+                "fadeEffect": {
+                  "crossFade": true
+                },
+                "slidesPerView": 1,
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "clickable": true,
+                  "dynamicBullets": true
+                }
+              }
+            </script>
+
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <img src="assets/img/portfolio/park.webp"
+                  alt="Park N Ride airport parking booking platform UI UX design created by SurfUX"
+                  class="img-fluid" />
+              </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="description-box">
+          <h3>Project Overview</h3>
+
+          <p class="lead">
+            This UI/UX design project was developed for Park N Ride, an
+            airport parking and shuttle booking platform focused on providing
+            travelers with a simple, reliable, and stress-free parking
+            experience.
+          </p>
+
+          <p>
+            The interface was designed with a modern and user-friendly layout
+            that allows users to quickly search, compare, and reserve airport
+            parking services with ease. The design combines strong visual
+            hierarchy, responsive layouts, and clean booking workflows to
+            improve usability and increase customer engagement.
+          </p>
+
+          <p>
+            Special attention was given to the booking section, call-to-action
+            areas, and accessibility across all devices to create a seamless
+            experience for users planning airport transportation and parking
+            services online.
+          </p>
+        </div>
+
+        <div class="technologies">
+          <div class="tech-title">Design Highlights:</div>
+
+          <div class="tech-badges">
+            <span>Modern Booking UI</span>
+            <span>Responsive Design</span>
+            <span>User-Friendly Experience</span>
+            <span>Airport Service Branding</span>
+          </div>
+        </div>
+
+      </div>
+
     </div>
   </div>
 </div>

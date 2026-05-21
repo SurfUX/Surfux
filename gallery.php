@@ -1,102 +1,190 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <!-- Primary Meta Tags -->
-    <title>
-      SurfUX - Custom Web Design & Development Agency in Sri Lanka | UI/UX
-      Design
-    </title>
-    <meta
-      name="title"
-      content="SurfUX - Custom Web Design & Development Agency in Sri Lanka | UI/UX Design"
-    />
-    <meta
-      name="description"
-      content="SurfUX is a creative web design agency in Galle, Sri Lanka specializing in custom website development, UI/UX design, and brand identity for startups and growing businesses. Transform your ideas into stunning online experiences."
-    />
-    <meta
-      name="keywords"
-      content="web design Sri Lanka, web development agency, custom website design, UI UX design, startup web design, responsive web design, brand identity design, e-commerce solutions, Galle web design, Sri Lanka digital agency"
-    />
-    <meta name="author" content="SurfUX" />
-    <meta name="robots" content="index, follow" />
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.surfux.com/" />
+  <!-- Primary Meta Tags -->
+  <title>SurfUX - Web Design & Social Media Marketing Agency for Modern Brands</title>
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.surfux.com/" />
-    <meta
-      property="og:title"
-      content="SurfUX - Custom Web Design & Development Agency in Sri Lanka"
-    />
-    <meta
-      property="og:description"
-      content="Transform your startup ideas into stunning online experiences. Professional web design, UI/UX, and brand identity services in Sri Lanka."
-    />
-    <meta
-      property="og:image"
-      content="https://www.surfux.com/assets/img/og-image.jpg"
-    />
-    <meta property="og:site_name" content="SurfUX" />
-    <meta property="og:locale" content="en_US" />
+  <meta name="title"
+    content="SurfUX - Web Design & Social Media Marketing Agency for Modern Brands">
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://www.surfux.com/" />
-    <meta
-      name="twitter:title"
-      content="SurfUX - Custom Web Design & Development Agency in Sri Lanka"
-    />
-    <meta
-      name="twitter:description"
-      content="Transform your startup ideas into stunning online experiences. Professional web design, UI/UX, and brand identity services."
-    />
-    <meta
-      name="twitter:image"
-      content="https://www.surfux.com/assets/img/twitter-card.jpg"
-    />
+  <meta name="description"
+    content="SurfUX is a creative digital agency specializing in modern web design, custom website development, social media marketing, branding, and digital experiences for startups, businesses, and growing brands worldwide.">
 
-    <!-- Geographic Meta Tags -->
-    <meta name="geo.region" content="LK-2" />
-    <meta name="geo.placename" content="Galle" />
-    <meta name="geo.position" content="6.0726002;80.2130318" />
-    <meta name="ICBM" content="6.0726002, 80.2130318" />
+  <meta name="keywords"
+    content="web design agency, social media marketing agency, digital marketing, custom website development, modern web design, branding agency, responsive websites, startup marketing, creative agency, social media management, content creation, e-commerce development, digital branding">
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <meta name="author" content="SurfUX">
+  <meta name="robots" content="index, follow">
 
-    <!-- Fonts - Preconnect for Performance -->
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.surfux.com/">
 
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
 
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  </head>
+  <meta property="og:url"
+    content="https://www.surfux.com/">
+
+  <meta property="og:title"
+    content="SurfUX - Web Design & Social Media Marketing Agency">
+
+  <meta property="og:description"
+    content="We create modern websites, social media campaigns, branding, and digital experiences for startups and growing brands worldwide.">
+
+  <meta property="og:image"
+    content="https://www.surfux.com/assets/img/og-image.jpg">
+
+  <meta property="og:site_name" content="SurfUX">
+
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="twitter:url"
+    content="https://www.surfux.com/">
+
+  <meta name="twitter:title"
+    content="SurfUX - Web Design & Social Media Marketing Agency">
+
+  <meta name="twitter:description"
+    content="Modern web design, social media marketing, branding, and digital experiences for startups and businesses worldwide.">
+
+  <meta name="twitter:image"
+    content="https://www.surfux.com/assets/img/twitter-card.jpg">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+
+  <link href="https://fonts.gstatic.com"
+    rel="preconnect"
+    crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Animation Libraries -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Structured Data - Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+
+    "@type": "Organization",
+
+    "name": "SurfUX",
+
+    "alternateName": "SurfUX Digital Agency",
+
+    "url": "https://www.surfux.com",
+
+    "logo": "https://www.surfux.com/assets/img/logo.png",
+
+    "image": "https://www.surfux.com/assets/img/og-image.jpg",
+
+    "description":
+    "Creative digital agency specializing in web design, social media marketing, branding, and modern digital experiences for startups and growing brands worldwide.",
+
+    "foundingDate": "2019",
+
+    "telephone": "+94717758637",
+
+    "email": "contact@surfux.com",
+
+    "priceRange": "$$",
+
+    "sameAs": [
+      "https://www.facebook.com/surfux",
+      "https://www.instagram.com/surfux",
+      "https://www.linkedin.com/company/surfux"
+    ],
+
+    "contactPoint": {
+      "@type": "ContactPoint",
+
+      "telephone": "+94717758637",
+
+      "contactType": "Customer Support",
+
+      "availableLanguage": ["English"]
+    },
+
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+
+      "name": "Digital Services",
+
+      "itemListElement": [
+
+        {
+          "@type": "Offer",
+
+          "itemOffered": {
+            "@type": "Service",
+
+            "name": "Custom Web Development",
+
+            "description":
+            "Modern high-performance websites tailored for brands and businesses."
+          }
+        },
+
+        {
+          "@type": "Offer",
+
+          "itemOffered": {
+            "@type": "Service",
+
+            "name": "Social Media Marketing",
+
+            "description":
+            "Creative social media strategies, content creation, and digital campaigns."
+          }
+        },
+
+        {
+          "@type": "Offer",
+
+          "itemOffered": {
+            "@type": "Service",
+
+            "name": "Brand Identity Design",
+
+            "description":
+            "Professional branding solutions including logos, visual systems, and digital identity."
+          }
+        }
+
+      ]
+    }
+  }
+  </script>
+
+</head>
 
   <body class="portfolio-details-page">
     <!-- ========================= header start ========================= -->
