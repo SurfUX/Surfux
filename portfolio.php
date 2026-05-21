@@ -805,7 +805,7 @@
             <div class="swiper-wrapper">
 
               <div class="swiper-slide">
-                <img src="assets/img/portfolio/aurumflux.webp"
+                <img src="assets/img/portfolio/aurum.webp"
                   alt="AurumFlux modern technology website UI UX homepage design by SurfUX"
                   class="img-fluid" />
               </div>
