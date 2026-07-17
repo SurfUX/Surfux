@@ -8,8 +8,7 @@
   <!-- Primary Meta Tags -->
   <title>SurfUX - Web Design & Social Media Marketing Agency for Modern Brands</title>
 
-  <meta name="title"
-    content="SurfUX - Web Design & Social Media Marketing Agency for Modern Brands">
+  <meta name="title" content="SurfUX - Web Design & Social Media Marketing Agency for Modern Brands">
 
   <meta name="description"
     content="SurfUX is a creative digital agency specializing in modern web design, custom website development, social media marketing, branding, and digital experiences for startups, businesses, and growing brands worldwide.">
@@ -26,17 +25,14 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
 
-  <meta property="og:url"
-    content="https://www.surfux.com/">
+  <meta property="og:url" content="https://www.surfux.com/">
 
-  <meta property="og:title"
-    content="SurfUX - Web Design & Social Media Marketing Agency">
+  <meta property="og:title" content="SurfUX - Web Design & Social Media Marketing Agency">
 
   <meta property="og:description"
     content="We create modern websites, social media campaigns, branding, and digital experiences for startups and growing brands worldwide.">
 
-  <meta property="og:image"
-    content="https://www.surfux.com/assets/img/og-image.jpg">
+  <meta property="og:image" content="https://www.surfux.com/assets/img/og-image.jpg">
 
   <meta property="og:site_name" content="SurfUX">
 
@@ -45,17 +41,14 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
 
-  <meta name="twitter:url"
-    content="https://www.surfux.com/">
+  <meta name="twitter:url" content="https://www.surfux.com/">
 
-  <meta name="twitter:title"
-    content="SurfUX - Web Design & Social Media Marketing Agency">
+  <meta name="twitter:title" content="SurfUX - Web Design & Social Media Marketing Agency">
 
   <meta name="twitter:description"
     content="Modern web design, social media marketing, branding, and digital experiences for startups and businesses worldwide.">
 
-  <meta name="twitter:image"
-    content="https://www.surfux.com/assets/img/twitter-card.jpg">
+  <meta name="twitter:image" content="https://www.surfux.com/assets/img/twitter-card.jpg">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -64,9 +57,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
 
-  <link href="https://fonts.gstatic.com"
-    rel="preconnect"
-    crossorigin>
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
 
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -87,8 +78,7 @@
   <!-- Animation Libraries -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <!-- Structured Data - Organization Schema -->
   <script type="application/ld+json">
@@ -216,6 +206,360 @@
         <div class="project-header">
           <div class="row">
             <div class="col-lg-12">
+              <h1 class="project-title">Aloka Elder's Home – Admin Dashboard</h1>
+
+              <div class="project-meta">
+                <div class="meta-item">
+                  <i class="bi bi-calendar3"></i>
+                  <span>2025</span>
+                </div>
+
+                <div class="meta-item">
+                  <i class="bi bi-building"></i>
+                  <span>Elder Care Management System</span>
+                </div>
+
+                <div class="meta-item">
+                  <i class="bi bi-gear"></i>
+                  <span>Web-Based Administration Portal</span>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Admin Dashboard</span>
+                <span class="tag">Care Management</span>
+                <span class="tag">Booking System</span>
+                <span class="tag">Analytics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="row project-header">
+
+            <div class="col-md-6">
+              <div class="media-showcase">
+                <div class="portfolio-details-slider swiper init-swiper swiper-fade">
+
+                  <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 800,
+              "autoplay": {
+                "delay": 5000
+              },
+              "effect": "fade",
+              "fadeEffect": {
+                "crossFade": true
+              },
+              "slidesPerView": 1,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "clickable": true,
+                "dynamicBullets": true
+              }
+            }
+            </script>
+
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/alokad.webp" alt="Aloka Elder's Home Admin Dashboard"
+                        class="img-fluid">
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+
+              <div class="description-box">
+                <h3>Project Overview</h3>
+
+                <p class="lead">
+                  The Aloka Elder's Home Admin Dashboard is a comprehensive management platform
+                  built to simplify daily operations, resident admissions, care coordination,
+                  and reporting through a centralized digital system.
+                </p>
+
+                <p>
+                  SurfUX designed and developed an intuitive dashboard that enables staff to
+                  manage bookings, resident records, caregiver assignments, meal preferences,
+                  notifications, and operational reports from a single interface. The system
+                  improves administrative efficiency while reducing manual paperwork and
+                  streamlining day-to-day workflows.
+                </p>
+
+                <p>
+                  With responsive access across desktop, tablet, and mobile devices, the
+                  platform provides administrators with real-time insights into occupancy,
+                  admissions, and resident management, ensuring a faster and more organized
+                  care management process.
+                </p>
+              </div>
+
+              <div class="technologies">
+                <div class="tech-title">Key Features & Highlights</div>
+
+                <div class="tech-badges">
+                  <span>Resident Management</span>
+                  <span>Admission & Booking Control</span>
+                  <span>Caregiver & Staff Management</span>
+                  <span>Real-Time Analytics Dashboard</span>
+                  <span>Reports & Data Export</span>
+                  <span>Responsive Admin Interface</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="project-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="project-title">Arches Fort</h1>
+
+              <div class="project-meta">
+                <div class="meta-item">
+                  <i class="bi bi-calendar3"></i>
+                  <span>2025</span>
+                </div>
+
+                <div class="meta-item">
+                  <i class="bi bi-building"></i>
+                  <span>Boutique Heritage Hotel</span>
+                </div>
+
+                <div class="meta-item">
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="https://www.archesfort.com/" target="_blank">
+                    www.archesfort.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Hospitality</span>
+                <span class="tag">Boutique Hotel</span>
+                <span class="tag">Luxury Stay</span>
+                <span class="tag">Responsive Website</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="row project-header">
+
+            <div class="col-md-6">
+              <div class="media-showcase">
+                <div class="portfolio-details-slider swiper init-swiper swiper-fade">
+
+                  <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 800,
+              "autoplay": {
+                "delay": 5000
+              },
+              "effect": "fade",
+              "fadeEffect": {
+                "crossFade": true
+              },
+              "slidesPerView": 1,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "clickable": true,
+                "dynamicBullets": true
+              }
+            }
+            </script>
+
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/archesfort.webp" alt="Arches Fort Boutique Hotel Website"
+                        class="img-fluid">
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="description-box">
+                <h3>Project Overview</h3>
+
+                <p class="lead">
+                  Arches Fort is a boutique heritage hotel located within the historic
+                  walls of Galle Fort, offering guests a unique blend of colonial
+                  elegance, modern comfort, and authentic Sri Lankan hospitality.
+                </p>
+
+                <p>
+                  SurfUX designed and developed a premium hospitality website that
+                  captures the timeless character of the property while delivering a
+                  seamless digital experience. The design emphasizes immersive
+                  photography, elegant typography, and intuitive navigation to inspire
+                  travelers from around the world.
+                </p>
+
+                <p>
+                  The website enables visitors to explore accommodation, hotel
+                  facilities, nearby attractions, and local experiences while
+                  strengthening the hotel's online presence and reinforcing its luxury
+                  brand identity across all devices.
+                </p>
+              </div>
+
+              <div class="technologies">
+                <div class="tech-title">Key Features & Highlights</div>
+
+                <div class="tech-badges">
+                  <span>Luxury Hospitality Design</span>
+                  <span>Fully Responsive Layout</span>
+                  <span>Room & Experience Showcase</span>
+                  <span>Optimized User Journey</span>
+                  <span>Modern Performance & SEO</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="project-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="project-title">Aloka Elder's Home</h1>
+
+              <div class="project-meta">
+                <div class="meta-item">
+                  <i class="bi bi-calendar3"></i>
+                  <span>2025</span>
+                </div>
+
+                <div class="meta-item">
+                  <i class="bi bi-building"></i>
+                  <span>Elder Care & Assisted Living</span>
+                </div>
+
+                <div class="meta-item">
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="https://alokaeldershome.com/" target="_blank">
+                    www.alokaeldershome.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Healthcare</span>
+                <span class="tag">Elder Care</span>
+                <span class="tag">Booking System</span>
+                <span class="tag">Responsive Website</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="row project-header">
+
+            <div class="col-md-6">
+              <div class="media-showcase">
+                <div class="portfolio-details-slider swiper init-swiper swiper-fade">
+
+                  <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 800,
+              "autoplay": {
+                "delay": 5000
+              },
+              "effect": "fade",
+              "fadeEffect": {
+                "crossFade": true
+              },
+              "slidesPerView": 1,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "clickable": true,
+                "dynamicBullets": true
+              }
+            }
+            </script>
+
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/aloka.webp" alt="Aloka Elder's Home Website" class="img-fluid">
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+
+              <div class="description-box">
+                <h3>Project Overview</h3>
+
+                <p class="lead">
+                  Aloka Elder's Home is a compassionate residential care facility dedicated
+                  to providing a safe, comfortable, and dignified living environment for
+                  senior citizens through professional care and personalized support.
+                </p>
+
+                <p>
+                  SurfUX designed and developed a modern, accessible website that enables
+                  families to explore accommodation, care services, facilities, and the
+                  home's compassionate approach with confidence. The design focuses on
+                  warmth, trust, and simplicity while ensuring an intuitive user experience
+                  across all devices.
+                </p>
+
+                <p>
+                  The platform also includes an online inquiry and booking system, making
+                  it easier for families to schedule visits, request admissions, and connect
+                  with the care team. The result is a professional digital presence that
+                  reflects Aloka Elder's Home's commitment to quality elder care.
+                </p>
+              </div>
+
+              <div class="technologies">
+                <div class="tech-title">Key Features & Highlights</div>
+
+                <div class="tech-badges">
+                  <span>Online Admission & Booking</span>
+                  <span>Care Service Showcase</span>
+                  <span>Fully Responsive Design</span>
+                  <span>Accessibility-Focused Experience</span>
+                  <span>SEO & Performance Optimized</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="project-header">
+          <div class="row">
+            <div class="col-lg-12">
               <h1 class="project-title">Maniq Ceylon – Admin Dashboard</h1>
 
               <div class="project-meta">
@@ -319,44 +663,163 @@
         </div>
       </div>
       <div class="container">
-  <div class="project-header">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1 class="project-title">CourierFlex UI/UX Design</h1>
+        <div class="project-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="project-title">Go China Holidays</h1>
 
-        <div class="project-meta">
-          <div class="meta-item">
-            <i class="bi bi-calendar3"></i>
-            <span>January 2026</span>
-          </div>
+              <div class="project-meta">
+                <div class="meta-item">
+                  <i class="bi bi-calendar3"></i>
+                  <span>2025</span>
+                </div>
 
-          <div class="meta-item">
-            <i class="bi bi-palette"></i>
-            <span>UI/UX Design Project</span>
-          </div>
+                <div class="meta-item">
+                  <i class="bi bi-building"></i>
+                  <span>International Travel Agency</span>
+                </div>
 
-          <div class="meta-item">
-            <i class="bi bi-building"></i>
-            <span>CourierFlex</span>
+                <div class="meta-item">
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="https://www.gochinaholidays.com/" target="_blank">
+                    www.gochinaholidays.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Travel & Tourism</span>
+                <span class="tag">China Tours</span>
+                <span class="tag">Responsive Website</span>
+                <span class="tag">Travel Booking</span>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="project-tags">
-          <span class="tag">UI/UX Design</span>
-          <span class="tag">Courier Website</span>
-          <span class="tag">Landing Page Design</span>
+        <div class="project-content">
+          <div class="row project-header">
+
+            <div class="col-md-6">
+              <div class="media-showcase">
+                <div class="portfolio-details-slider swiper init-swiper swiper-fade">
+
+                  <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 800,
+              "autoplay": {
+                "delay": 5000
+              },
+              "effect": "fade",
+              "fadeEffect": {
+                "crossFade": true
+              },
+              "slidesPerView": 1,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "clickable": true,
+                "dynamicBullets": true
+              }
+            }
+            </script>
+
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/gochina.webp" alt="Go China Holidays Website" class="img-fluid">
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+
+              <div class="description-box">
+                <h3>Project Overview</h3>
+
+                <p class="lead">
+                  Go China Holidays is a modern travel platform dedicated to helping
+                  travelers discover China's rich cultural heritage, iconic landmarks,
+                  and unforgettable travel experiences through carefully curated tour
+                  packages.
+                </p>
+
+                <p>
+                  SurfUX designed and developed a visually engaging, responsive website
+                  that showcases destinations, travel itineraries, and guided tour
+                  experiences with a clean and intuitive user interface. The platform
+                  was created to inspire confidence while making trip planning simple
+                  and accessible for international travelers.
+                </p>
+
+                <p>
+                  The website emphasizes immersive destination imagery, streamlined
+                  navigation, and clear calls-to-action, providing a seamless browsing
+                  experience across desktop, tablet, and mobile devices while
+                  strengthening the brand's global digital presence.
+                </p>
+              </div>
+
+              <div class="technologies">
+                <div class="tech-title">Key Features & Highlights</div>
+
+                <div class="tech-badges">
+                  <span>Destination Showcase</span>
+                  <span>Tour Package Management</span>
+                  <span>Responsive User Experience</span>
+                  <span>Conversion-Focused Landing Pages</span>
+                  <span>SEO & Performance Optimized</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+      <div class="container">
+        <div class="project-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="project-title">CourierFlex UI/UX Design</h1>
 
-  <div class="project-content">
-    <div class="row project-header">
-      <div class="col-md-6">
-        <div class="media-showcase">
-          <div class="portfolio-details-slider swiper init-swiper swiper-fade">
+              <div class="project-meta">
+                <div class="meta-item">
+                  <i class="bi bi-calendar3"></i>
+                  <span>January 2026</span>
+                </div>
 
-            <script type="application/json" class="swiper-config">
+                <div class="meta-item">
+                  <i class="bi bi-palette"></i>
+                  <span>UI/UX Design Project</span>
+                </div>
+
+                <div class="meta-item">
+                  <i class="bi bi-building"></i>
+                  <span>CourierFlex</span>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">UI/UX Design</span>
+                <span class="tag">Courier Website</span>
+                <span class="tag">Landing Page Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="row project-header">
+            <div class="col-md-6">
+              <div class="media-showcase">
+                <div class="portfolio-details-slider swiper init-swiper swiper-fade">
+
+                  <script type="application/json" class="swiper-config">
               {
                 "loop": true,
                 "speed": 800,
@@ -376,54 +839,174 @@
               }
             </script>
 
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="assets/img/portfolio/courierflex.webp"
-                  alt="CourierFlex courier service landing page UI UX design created by SurfUX"
-                  class="img-fluid" />
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/courierflex.webp"
+                        alt="CourierFlex courier service landing page UI UX design created by SurfUX"
+                        class="img-fluid" />
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+
+                </div>
               </div>
             </div>
 
-            <div class="swiper-pagination"></div>
+            <div class="col-md-6">
+              <div class="description-box">
+                <h3>Project Overview</h3>
+
+                <p class="lead">
+                  This UI/UX design project was created for CourierFlex, a modern
+                  courier and delivery service platform focused on fast, reliable,
+                  and user-friendly parcel delivery experiences.
+                </p>
+
+                <p>
+                  The interface was carefully designed to provide a clean visual
+                  hierarchy, engaging layout composition, and a smooth user journey.
+                  The landing page combines modern typography, strategic spacing,
+                  and vibrant branding elements to improve user engagement and
+                  conversion rates while maintaining full responsiveness across all
+                  devices.
+                </p>
+              </div>
+
+              <div class="technologies">
+                <div class="tech-title">Design Highlights:</div>
+
+                <div class="tech-badges">
+                  <span>Modern UI Design</span>
+                  <span>User-Centered UX</span>
+                  <span>Responsive Layout</span>
+                  <span>Creative Visual Branding</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="project-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="project-title">Go Philippines Holidays</h1>
+
+              <div class="project-meta">
+                <div class="meta-item">
+                  <i class="bi bi-calendar3"></i>
+                  <span>2025</span>
+                </div>
+
+                <div class="meta-item">
+                  <i class="bi bi-building"></i>
+                  <span>International Travel Agency</span>
+                </div>
+
+                <div class="meta-item">
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="https://www.gophilippinesholiday.com/" target="_blank">
+                    www.gophilippinesholiday.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Travel & Tourism</span>
+                <span class="tag">Philippines Tours</span>
+                <span class="tag">Responsive Website</span>
+                <span class="tag">Travel Booking</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="row project-header">
+
+            <div class="col-md-6">
+              <div class="media-showcase">
+                <div class="portfolio-details-slider swiper init-swiper swiper-fade">
+
+                  <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 800,
+              "autoplay": {
+                "delay": 5000
+              },
+              "effect": "fade",
+              "fadeEffect": {
+                "crossFade": true
+              },
+              "slidesPerView": 1,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "clickable": true,
+                "dynamicBullets": true
+              }
+            }
+            </script>
+
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/gophilippines.webp" alt="Go Philippines Holidays Website"
+                        class="img-fluid">
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+
+              <div class="description-box">
+                <h3>Project Overview</h3>
+
+                <p class="lead">
+                  Go Philippines Holidays is a travel platform created to inspire
+                  travelers to discover the breathtaking islands, pristine beaches,
+                  vibrant culture, and unforgettable experiences that the Philippines
+                  has to offer.
+                </p>
+
+                <p>
+                  SurfUX designed and developed a modern, visually engaging website that
+                  showcases curated tour packages, popular destinations, and personalized
+                  travel experiences. The user interface was crafted to simplify trip
+                  planning while encouraging visitors to confidently explore and book
+                  their next adventure.
+                </p>
+
+                <p>
+                  Built with a responsive, performance-focused design, the platform
+                  delivers a seamless browsing experience across desktop, tablet, and
+                  mobile devices while strengthening the brand's digital presence and
+                  increasing customer engagement.
+                </p>
+              </div>
+
+              <div class="technologies">
+                <div class="tech-title">Key Features & Highlights</div>
+
+                <div class="tech-badges">
+                  <span>Destination Showcase</span>
+                  <span>Curated Tour Packages</span>
+                  <span>Responsive User Experience</span>
+                  <span>Lead Generation & Inquiry Forms</span>
+                  <span>SEO & Performance Optimized</span>
+                </div>
+              </div>
+
+            </div>
 
           </div>
         </div>
       </div>
-
-      <div class="col-md-6">
-        <div class="description-box">
-          <h3>Project Overview</h3>
-
-          <p class="lead">
-            This UI/UX design project was created for CourierFlex, a modern
-            courier and delivery service platform focused on fast, reliable,
-            and user-friendly parcel delivery experiences.
-          </p>
-
-          <p>
-            The interface was carefully designed to provide a clean visual
-            hierarchy, engaging layout composition, and a smooth user journey.
-            The landing page combines modern typography, strategic spacing,
-            and vibrant branding elements to improve user engagement and
-            conversion rates while maintaining full responsiveness across all
-            devices.
-          </p>
-        </div>
-
-        <div class="technologies">
-          <div class="tech-title">Design Highlights:</div>
-
-          <div class="tech-badges">
-            <span>Modern UI Design</span>
-            <span>User-Centered UX</span>
-            <span>Responsive Layout</span>
-            <span>Creative Visual Branding</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
       <div class="container">
         <div class="project-header">
           <div class="row">
@@ -531,44 +1114,44 @@
         </div>
       </div>
       <div class="container">
-  <div class="project-header">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1 class="project-title">Architecture Portfolio UI/UX Design</h1>
+        <div class="project-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="project-title">Architecture Portfolio UI/UX Design</h1>
 
-        <div class="project-meta">
-          <div class="meta-item">
-            <i class="bi bi-calendar3"></i>
-            <span>February 2026</span>
-          </div>
+              <div class="project-meta">
+                <div class="meta-item">
+                  <i class="bi bi-calendar3"></i>
+                  <span>February 2026</span>
+                </div>
 
-          <div class="meta-item">
-            <i class="bi bi-palette"></i>
-            <span>UI/UX Design Portfolio</span>
-          </div>
+                <div class="meta-item">
+                  <i class="bi bi-palette"></i>
+                  <span>UI/UX Design Portfolio</span>
+                </div>
 
-          <div class="meta-item">
-            <i class="bi bi-building"></i>
-            <span>Architecture</span>
+                <div class="meta-item">
+                  <i class="bi bi-building"></i>
+                  <span>Architecture</span>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Architecture Portfolio</span>
+                <span class="tag">UI/UX Design</span>
+                <span class="tag">Personal Branding</span>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="project-tags">
-          <span class="tag">Architecture Portfolio</span>
-          <span class="tag">UI/UX Design</span>
-          <span class="tag">Personal Branding</span>
-        </div>
-      </div>
-    </div>
-  </div>
+        <div class="project-content">
+          <div class="row project-header">
+            <div class="col-md-6">
+              <div class="media-showcase">
+                <div class="portfolio-details-slider swiper init-swiper swiper-fade">
 
-  <div class="project-content">
-    <div class="row project-header">
-      <div class="col-md-6">
-        <div class="media-showcase">
-          <div class="portfolio-details-slider swiper init-swiper swiper-fade">
-
-            <script type="application/json" class="swiper-config">
+                  <script type="application/json" class="swiper-config">
               {
                 "loop": true,
                 "speed": 800,
@@ -588,55 +1171,171 @@
               }
             </script>
 
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="assets/img/portfolio/architecture.webp"
-                  alt="Modern architecture portfolio UI UX design created by SurfUX"
-                  class="img-fluid" />
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/architecture.webp"
+                        alt="Modern architecture portfolio UI UX design created by SurfUX" class="img-fluid" />
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+
+                </div>
               </div>
             </div>
 
-            <div class="swiper-pagination"></div>
+            <div class="col-md-6">
+              <div class="description-box">
+                <h3>Project Overview</h3>
+
+                <p class="lead">
+                  This UI/UX design project was developed for a modern architecture
+                  portfolio website focused on showcasing personal branding,
+                  creative direction, and professional architectural services.
+                </p>
+
+                <p>
+                  The design approach combines a minimal dark aesthetic with bold
+                  typography, cinematic visual presentation, and strategic layout
+                  composition to create a premium digital experience. Special
+                  attention was given to portfolio visibility, user engagement,
+                  responsive performance, and elegant interaction flow to ensure the
+                  website reflects both creativity and professionalism.
+                </p>
+              </div>
+
+              <div class="technologies">
+                <div class="tech-title">Design Highlights:</div>
+
+                <div class="tech-badges">
+                  <span>Luxury Dark UI</span>
+                  <span>Modern Typography</span>
+                  <span>Responsive Experience</span>
+                  <span>Creative Portfolio Layout</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="project-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="project-title">Great Ocean Tours</h1>
+
+              <div class="project-meta">
+                <div class="meta-item">
+                  <i class="bi bi-calendar3"></i>
+                  <span>2025</span>
+                </div>
+
+                <div class="meta-item">
+                  <i class="bi bi-building"></i>
+                  <span>International Travel Company</span>
+                </div>
+
+                <div class="meta-item">
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="https://www.greatoceantours.com/" target="_blank">
+                    www.greatoceantours.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Travel & Tourism</span>
+                <span class="tag">International Tours</span>
+                <span class="tag">Responsive Website</span>
+                <span class="tag">Corporate Travel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="row project-header">
+
+            <div class="col-md-6">
+              <div class="media-showcase">
+                <div class="portfolio-details-slider swiper init-swiper swiper-fade">
+
+                  <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 800,
+              "autoplay": {
+                "delay": 5000
+              },
+              "effect": "fade",
+              "fadeEffect": {
+                "crossFade": true
+              },
+              "slidesPerView": 1,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "clickable": true,
+                "dynamicBullets": true
+              }
+            }
+            </script>
+
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/got.webp" alt="Great Ocean Tours Website" class="img-fluid">
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+
+              <div class="description-box">
+                <h3>Project Overview</h3>
+
+                <p class="lead">
+                  Great Ocean Tours is an international travel company providing
+                  customized travel experiences and ground handling services across
+                  Hong Kong, the Philippines, India, and other destinations.
+                </p>
+
+                <p>
+                  SurfUX designed and developed a modern, conversion-focused website
+                  that showcases the company's travel expertise, destination services,
+                  and international tour packages. The design combines immersive
+                  visuals with intuitive navigation to help travelers confidently
+                  explore destinations and submit tour inquiries.
+                </p>
+
+                <p>
+                  Built with a responsive, performance-driven architecture, the
+                  platform delivers a consistent experience across desktop, tablet,
+                  and mobile devices while strengthening the company's global digital
+                  presence and supporting future business growth.
+                </p>
+              </div>
+
+              <div class="technologies">
+                <div class="tech-title">Key Features & Highlights</div>
+
+                <div class="tech-badges">
+                  <span>Multi-Destination Travel Platform</span>
+                  <span>Custom Tour Inquiry System</span>
+                  <span>Responsive User Experience</span>
+                  <span>Corporate Brand Identity</span>
+                  <span>SEO & Performance Optimized</span>
+                </div>
+              </div>
+
+            </div>
 
           </div>
         </div>
       </div>
-
-      <div class="col-md-6">
-        <div class="description-box">
-          <h3>Project Overview</h3>
-
-          <p class="lead">
-            This UI/UX design project was developed for a modern architecture
-            portfolio website focused on showcasing personal branding,
-            creative direction, and professional architectural services.
-          </p>
-
-          <p>
-            The design approach combines a minimal dark aesthetic with bold
-            typography, cinematic visual presentation, and strategic layout
-            composition to create a premium digital experience. Special
-            attention was given to portfolio visibility, user engagement,
-            responsive performance, and elegant interaction flow to ensure the
-            website reflects both creativity and professionalism.
-          </p>
-        </div>
-
-        <div class="technologies">
-          <div class="tech-title">Design Highlights:</div>
-
-          <div class="tech-badges">
-            <span>Luxury Dark UI</span>
-            <span>Modern Typography</span>
-            <span>Responsive Experience</span>
-            <span>Creative Portfolio Layout</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
       <div class="container">
         <div class="project-header">
           <div class="row">
@@ -742,47 +1441,47 @@
           </div>
         </div>
       </div>
-<div class="container">
-  <div class="project-header">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1 class="project-title">AurumFlux UI/UX Design</h1>
+      <div class="container">
+        <div class="project-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="project-title">AurumFlux UI/UX Design</h1>
 
-        <div class="project-meta">
-          <div class="meta-item">
-            <i class="bi bi-calendar3"></i>
-            <span>March 2026</span>
-          </div>
+              <div class="project-meta">
+                <div class="meta-item">
+                  <i class="bi bi-calendar3"></i>
+                  <span>March 2026</span>
+                </div>
 
-          <div class="meta-item">
-            <i class="bi bi-palette"></i>
-            <span>Technology Website UI/UX</span>
-          </div>
+                <div class="meta-item">
+                  <i class="bi bi-palette"></i>
+                  <span>Technology Website UI/UX</span>
+                </div>
 
-          <div class="meta-item">
-            <i class="bi bi-building"></i>
-            <span>AurumFlux</span>
+                <div class="meta-item">
+                  <i class="bi bi-building"></i>
+                  <span>AurumFlux</span>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Technology UI</span>
+                <span class="tag">AI Solutions</span>
+                <span class="tag">Modern Web Design</span>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="project-tags">
-          <span class="tag">Technology UI</span>
-          <span class="tag">AI Solutions</span>
-          <span class="tag">Modern Web Design</span>
-        </div>
-      </div>
-    </div>
-  </div>
+        <div class="project-content">
+          <div class="row project-header">
 
-  <div class="project-content">
-    <div class="row project-header">
+            <div class="col-md-6">
+              <div class="media-showcase">
 
-      <div class="col-md-6">
-        <div class="media-showcase">
+                <div class="portfolio-details-slider swiper init-swiper swiper-fade">
 
-          <div class="portfolio-details-slider swiper init-swiper swiper-fade">
-
-            <script type="application/json" class="swiper-config">
+                  <script type="application/json" class="swiper-config">
               {
                 "loop": true,
                 "speed": 800,
@@ -802,68 +1501,67 @@
               }
             </script>
 
-            <div class="swiper-wrapper">
+                  <div class="swiper-wrapper">
 
-              <div class="swiper-slide">
-                <img src="assets/img/portfolio/aurum.webp"
-                  alt="AurumFlux modern technology website UI UX homepage design by SurfUX"
-                  class="img-fluid" />
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/aurum.webp"
+                        alt="AurumFlux modern technology website UI UX homepage design by SurfUX" class="img-fluid" />
+                    </div>
+
+
+
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="description-box">
+                <h3>Project Overview</h3>
+
+                <p class="lead">
+                  This UI/UX design project was created for AurumFlux, a modern
+                  digital technology company focused on AI solutions, IoT systems,
+                  data analytics, and digital transformation services.
+                </p>
+
+                <p>
+                  The website interface was designed with a futuristic dark-themed
+                  visual style combined with premium typography, modern layouts, and
+                  strategic user experience principles. The design emphasizes
+                  innovation, scalability, and professionalism while creating a
+                  smooth and engaging browsing experience across desktop and mobile
+                  devices.
+                </p>
+
+                <p>
+                  Special attention was given to service presentation, visual
+                  hierarchy, interaction flow, and conversion-focused call-to-action
+                  sections to strengthen the brand’s digital identity and improve
+                  user engagement.
+                </p>
               </div>
 
-              
+              <div class="technologies">
+                <div class="tech-title">Design Highlights:</div>
+
+                <div class="tech-badges">
+                  <span>Dark Modern UI</span>
+                  <span>AI Technology Branding</span>
+                  <span>Responsive UX Design</span>
+                  <span>Conversion Focused Layout</span>
+                </div>
+              </div>
 
             </div>
 
-            <div class="swiper-pagination"></div>
-
-          </div>
-
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="description-box">
-          <h3>Project Overview</h3>
-
-          <p class="lead">
-            This UI/UX design project was created for AurumFlux, a modern
-            digital technology company focused on AI solutions, IoT systems,
-            data analytics, and digital transformation services.
-          </p>
-
-          <p>
-            The website interface was designed with a futuristic dark-themed
-            visual style combined with premium typography, modern layouts, and
-            strategic user experience principles. The design emphasizes
-            innovation, scalability, and professionalism while creating a
-            smooth and engaging browsing experience across desktop and mobile
-            devices.
-          </p>
-
-          <p>
-            Special attention was given to service presentation, visual
-            hierarchy, interaction flow, and conversion-focused call-to-action
-            sections to strengthen the brand’s digital identity and improve
-            user engagement.
-          </p>
-        </div>
-
-        <div class="technologies">
-          <div class="tech-title">Design Highlights:</div>
-
-          <div class="tech-badges">
-            <span>Dark Modern UI</span>
-            <span>AI Technology Branding</span>
-            <span>Responsive UX Design</span>
-            <span>Conversion Focused Layout</span>
           </div>
         </div>
-
       </div>
-
-    </div>
-  </div>
-</div>
       <div class="container">
         <div class="project-header">
           <div class="row">
@@ -972,46 +1670,46 @@
       </div>
 
       <div class="container">
-  <div class="project-header">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1 class="project-title">Park N Ride UI/UX Design</h1>
+        <div class="project-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="project-title">Park N Ride UI/UX Design</h1>
 
-        <div class="project-meta">
-          <div class="meta-item">
-            <i class="bi bi-calendar3"></i>
-            <span>April 2026</span>
-          </div>
+              <div class="project-meta">
+                <div class="meta-item">
+                  <i class="bi bi-calendar3"></i>
+                  <span>April 2026</span>
+                </div>
 
-          <div class="meta-item">
-            <i class="bi bi-palette"></i>
-            <span>Airport Parking UI/UX Design</span>
-          </div>
+                <div class="meta-item">
+                  <i class="bi bi-palette"></i>
+                  <span>Airport Parking UI/UX Design</span>
+                </div>
 
-          <div class="meta-item">
-            <i class="bi bi-building"></i>
-            <span>Park N Ride</span>
+                <div class="meta-item">
+                  <i class="bi bi-building"></i>
+                  <span>Park N Ride</span>
+                </div>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">Airport Parking</span>
+                <span class="tag">Booking Platform</span>
+                <span class="tag">UI/UX Design</span>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="project-tags">
-          <span class="tag">Airport Parking</span>
-          <span class="tag">Booking Platform</span>
-          <span class="tag">UI/UX Design</span>
-        </div>
-      </div>
-    </div>
-  </div>
+        <div class="project-content">
+          <div class="row project-header">
 
-  <div class="project-content">
-    <div class="row project-header">
+            <div class="col-md-6">
+              <div class="media-showcase">
 
-      <div class="col-md-6">
-        <div class="media-showcase">
+                <div class="portfolio-details-slider swiper init-swiper swiper-fade">
 
-          <div class="portfolio-details-slider swiper init-swiper swiper-fade">
-
-            <script type="application/json" class="swiper-config">
+                  <script type="application/json" class="swiper-config">
               {
                 "loop": true,
                 "speed": 800,
@@ -1031,66 +1729,66 @@
               }
             </script>
 
-            <div class="swiper-wrapper">
+                  <div class="swiper-wrapper">
 
-              <div class="swiper-slide">
-                <img src="assets/img/portfolio/park.webp"
-                  alt="Park N Ride airport parking booking platform UI UX design created by SurfUX"
-                  class="img-fluid" />
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/park.webp"
+                        alt="Park N Ride airport parking booking platform UI UX design created by SurfUX"
+                        class="img-fluid" />
+                    </div>
+
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="description-box">
+                <h3>Project Overview</h3>
+
+                <p class="lead">
+                  This UI/UX design project was developed for Park N Ride, an
+                  airport parking and shuttle booking platform focused on providing
+                  travelers with a simple, reliable, and stress-free parking
+                  experience.
+                </p>
+
+                <p>
+                  The interface was designed with a modern and user-friendly layout
+                  that allows users to quickly search, compare, and reserve airport
+                  parking services with ease. The design combines strong visual
+                  hierarchy, responsive layouts, and clean booking workflows to
+                  improve usability and increase customer engagement.
+                </p>
+
+                <p>
+                  Special attention was given to the booking section, call-to-action
+                  areas, and accessibility across all devices to create a seamless
+                  experience for users planning airport transportation and parking
+                  services online.
+                </p>
+              </div>
+
+              <div class="technologies">
+                <div class="tech-title">Design Highlights:</div>
+
+                <div class="tech-badges">
+                  <span>Modern Booking UI</span>
+                  <span>Responsive Design</span>
+                  <span>User-Friendly Experience</span>
+                  <span>Airport Service Branding</span>
+                </div>
               </div>
 
             </div>
 
-            <div class="swiper-pagination"></div>
-
-          </div>
-
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="description-box">
-          <h3>Project Overview</h3>
-
-          <p class="lead">
-            This UI/UX design project was developed for Park N Ride, an
-            airport parking and shuttle booking platform focused on providing
-            travelers with a simple, reliable, and stress-free parking
-            experience.
-          </p>
-
-          <p>
-            The interface was designed with a modern and user-friendly layout
-            that allows users to quickly search, compare, and reserve airport
-            parking services with ease. The design combines strong visual
-            hierarchy, responsive layouts, and clean booking workflows to
-            improve usability and increase customer engagement.
-          </p>
-
-          <p>
-            Special attention was given to the booking section, call-to-action
-            areas, and accessibility across all devices to create a seamless
-            experience for users planning airport transportation and parking
-            services online.
-          </p>
-        </div>
-
-        <div class="technologies">
-          <div class="tech-title">Design Highlights:</div>
-
-          <div class="tech-badges">
-            <span>Modern Booking UI</span>
-            <span>Responsive Design</span>
-            <span>User-Friendly Experience</span>
-            <span>Airport Service Branding</span>
           </div>
         </div>
-
       </div>
-
-    </div>
-  </div>
-</div>
       <div class="container">
         <div class="project-header">
           <div class="row">
